@@ -1,16 +1,25 @@
-## Hi there 👋
+<p align="center">
+  <img src="assets/hero.svg" width="100%" alt="Yuvraj Bhatiya — Frontend Developer / Web Developer" />
+</p>
 
-<!--
-**yvrjbhatiya/yvrjbhatiya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <a href="https://drive.google.com/file/d/1V92x6x_dluOYGkNELxoGwxIzKvOIyrrL/view?usp=sharing"><img src="assets/btn-resume.svg" height="46" alt="Resume" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/yvrjbhatiya/"><img src="assets/btn-linkedin.svg" height="46" alt="LinkedIn" /></a>&nbsp;
+  <a href="mailto:yvrjbhatiya@gmail.com"><img src="assets/btn-email.svg" height="46" alt="Email" /></a>&nbsp;
+</p>
 
-Here are some ideas to get you started:
+<br/>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+<h3>Stack</h3>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,react,redux,nodejs,express,mongodb,mysql,python,flask,cpp,git,vercel&perline=13" />
+</p>
+
+<br/>
+
+
+<p align="center">
+  <img src="assets/footer.svg" width="100%" alt="" />
+</p>
