@@ -14,7 +14,7 @@
 <h3>Stack</h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,html,css,react,nodejs,express,socketio,mongodb,mysql,git,github,vscode,postman&perline=13" />
+  <img src="https://skillicons.dev/icons?i=js,html,css,react,nodejs,express,mongodb,mysql,git,github&perline=13" />
 </p>
 
 <br/>
