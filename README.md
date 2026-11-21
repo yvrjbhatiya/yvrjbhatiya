@@ -1,4 +1,10 @@
-<div style="background-color: #ff5757; padding: 20px;">
+<div style="background: linear-gradient(
+  90deg,
+  #05060A 0%,
+  #05060A 60%,
+  #1B1432 80%,
+  #34255D 100%
+); padding: 20px;">
   <p align="center">
   <img src="assets/hero.svg" width="100%" alt="Yuvraj Bhatiya — Full-Stack Developer | MERN Stack" />
 </p>
