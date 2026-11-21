@@ -5,18 +5,12 @@
 <p align="center">
   <a href="https://drive.google.com/file/d/166bIiajH_Hn_hfEGBOFpjkMEq6mVQpfh/view?usp=sharing"><img src="assets/btn-resume.svg" height="46" alt="Resume" /></a>&nbsp;
   <a href="https://www.linkedin.com/in/yvrjbhatiya/"><img src="assets/btn-linkedin.svg" height="46" alt="LinkedIn" /></a>&nbsp;
-  <a href="mailto:yuvrajbhatiya57@gmail.com"><img src="assets/btn-email.svg" height="46" alt="Email" /></a>&nbsp;
+  <a href="mailto:yuvrajbhatiya57@gmail.com"><img src="assets/btn-email.svg" height="46" alt="Email" /></a>
 </p>
-
-<br/>
-
-<h3 align="center">Tech Stack</h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,html,css,react,tailwind,materialui,nodejs,express,mongodb,mysql,git,github,vercel,render&perline=8" />
+  <img src="assets/tech-stack.svg" width="100%" alt="Tech Stack: JavaScript, React.js, Node.js, Express.js, MongoDB and more" />
 </p>
-
-<br/>
 
 <p align="center">
   <img src="assets/footer.svg" width="100%" alt="" />
