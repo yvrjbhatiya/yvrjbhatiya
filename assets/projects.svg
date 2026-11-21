@@ -1,0 +1,318 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="1010" viewBox="0 0 1200 1010" role="img" aria-label="Projects: EduMart, Whisper and Shopsee">
+  <title>Projects</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+    <radialGradient id="vA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="outer"><rect width="1200" height="1010" rx="20"/></clipPath>
+    <clipPath id="w0"><rect width="440" height="216" rx="12"/></clipPath>
+    <clipPath id="w1"><rect width="440" height="216" rx="12"/></clipPath>
+    <clipPath id="w2"><rect width="440" height="216" rx="12"/></clipPath>
+    <clipPath id="w2b"><rect x="14" y="64" width="412" height="76" rx="10"/></clipPath>
+
+    <linearGradient id="eg0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+    <linearGradient id="eg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F472B6"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+    <linearGradient id="eg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#34D399"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <linearGradient id="eg3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBBF24"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+
+    <linearGradient id="sg0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+    <linearGradient id="sg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F472B6"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+    <linearGradient id="sg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#34D399"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <linearGradient id="sg3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+  </defs>
+
+  <style>
+    .card-link { cursor: pointer; text-decoration: none; }
+    .card-bg { transition: fill-opacity 0.25s ease, stroke-opacity 0.25s ease; }
+    .card-link:hover .card-bg { fill-opacity: 0.065; stroke-opacity: 0.85; }
+    .ext-icon { opacity: 0.45; transition: opacity 0.25s ease, transform 0.25s ease; }
+    .card-link:hover .ext-icon { opacity: 1; transform: translate(2px, -2px); }
+
+    .num{opacity:0;animation:num 6s linear infinite}
+    @keyframes num{0%,24%{opacity:1}25%,100%{opacity:0}}
+    .hl{opacity:0;animation:hl 6s ease-in-out infinite}
+    @keyframes hl{0%{opacity:0}4%,22%{opacity:1}28%,100%{opacity:0}}
+    .msg{opacity:0;animation:msg 9s ease-out infinite}
+    @keyframes msg{0%{opacity:0;transform:translateY(8px)}5%,82%{opacity:1;transform:none}90%,100%{opacity:0}}
+    .dotb{animation:dotb 1s ease-in-out infinite}
+    @keyframes dotb{0%,100%{transform:translateY(0);opacity:.4}50%{transform:translateY(-3px);opacity:1}}
+    .pulse{animation:pulse 2s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+    .slide{animation:slide 9s ease-in-out infinite}
+    @keyframes slide{0%,28%{transform:translateX(0)}33%,61%{transform:translateX(-412px)}66%,94%{transform:translateX(-824px)}99%{transform:translateX(-1236px)}99.01%,100%{transform:translateX(0)}}
+    .dotp{opacity:.3;animation:dotp 9s linear infinite}
+    @keyframes dotp{0%,32%{opacity:1}33%,100%{opacity:.3}}
+  </style>
+
+  <g clip-path="url(#outer)">
+    <rect width="1200" height="1010" fill="#05060A"/>
+    <circle cx="1120" cy="0" r="340" fill="url(#vA)"/>
+    <circle cx="60" cy="1010" r="360" fill="url(#cA)"/>
+    <text x="600" y="52" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="6" fill="url(#g)" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif">PROJECTS</text>
+    <rect x="576" y="64" width="48" height="3" rx="1.5" fill="url(#g)"/>
+
+    <!-- CARD 1: EDUMART -->
+    <a class="card-link" href="https://edumart-ten.vercel.app" xlink:href="https://edumart-ten.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="Open EduMart live site">
+      <g transform="translate(40 90)">
+        <rect class="card-bg" width="1120" height="280" rx="18" fill="#fff" fill-opacity="0.03" stroke="url(#g)" stroke-opacity="0.35" stroke-width="1.2"/>
+        <g class="ext-icon" transform="translate(1068, 28)">
+          <path d="M14 2h6v6M10 12L20 2M18 11v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h7" stroke="#9CA3AF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+
+        <g transform="translate(24 32)">
+          <g clip-path="url(#w0)">
+            <rect width="440" height="216" rx="12" fill="#0B0F1A"/>
+            <path d="M0 12a12 12 0 0 1 12-12H428a12 12 0 0 1 12 12V28H0Z" fill="#111827"/>
+            <circle cx="16" cy="14" r="4" fill="#FF5F56"/>
+            <circle cx="30" cy="14" r="4" fill="#FFBD2E"/>
+            <circle cx="44" cy="14" r="4" fill="#27C93F"/>
+            <rect x="120" y="6" width="200" height="16" rx="8" fill="#fff" fill-opacity="0.06"/>
+            <text x="220" y="17.2" text-anchor="middle" font-size="10" fill="#9CA3AF" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace">edumart-ten.vercel.app</text>
+            <line x1="0" y1="28" x2="440" y2="28" stroke="#fff" stroke-opacity="0.08"/>
+            <rect x="14" y="38" width="16" height="16" rx="5" fill="url(#g)"/>
+            <text x="36" y="50" font-size="12" font-weight="700" fill="#F3F4F6" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif">EduMart</text>
+            <rect x="130" y="38" width="210" height="16" rx="8" fill="#fff" fill-opacity="0.06"/>
+            <rect x="146" y="45" width="64" height="3" rx="1.5" fill="#fff" fill-opacity="0.18"/>
+            <rect x="374" y="42" width="16" height="12" rx="3" fill="none" stroke="#9CA3AF" stroke-width="1.5"/>
+            <path d="M378 42v-2a4 4 0 0 1 8 0v2" fill="none" stroke="#9CA3AF" stroke-width="1.5"/>
+            <circle cx="392" cy="41" r="7" fill="url(#g)"/>
+            <text class="num" style="animation-delay:0.0s" x="392" y="44" text-anchor="middle" font-size="9" font-weight="800" fill="#05060A" font-family="Inter,'Segoe UI',sans-serif">1</text>
+            <text class="num" style="animation-delay:1.5s" x="392" y="44" text-anchor="middle" font-size="9" font-weight="800" fill="#05060A" font-family="Inter,'Segoe UI',sans-serif">2</text>
+            <text class="num" style="animation-delay:3.0s" x="392" y="44" text-anchor="middle" font-size="9" font-weight="800" fill="#05060A" font-family="Inter,'Segoe UI',sans-serif">3</text>
+            <text class="num" style="animation-delay:4.5s" x="392" y="44" text-anchor="middle" font-size="9" font-weight="800" fill="#05060A" font-family="Inter,'Segoe UI',sans-serif">4</text>
+            <rect x="14" y="70" width="44" height="16" rx="8" fill="url(#g)" fill-opacity="0.9"/>
+            <rect x="64" y="70" width="56" height="16" rx="8" fill="#fff" fill-opacity="0.07"/>
+            <rect x="126" y="70" width="40" height="16" rx="8" fill="#fff" fill-opacity="0.07"/>
+
+            <rect x="14" y="96" width="95" height="104" rx="9" fill="#131A27" stroke="#fff" stroke-opacity="0.08"/>
+            <rect x="20" y="102" width="83" height="44" rx="6" fill="url(#eg0)" fill-opacity="0.85"/>
+            <rect x="20" y="154" width="64" height="6" rx="3" fill="#fff" fill-opacity="0.24"/>
+            <rect x="20" y="166" width="40" height="5" rx="2.5" fill="#fff" fill-opacity="0.12"/>
+            <rect x="20" y="178" width="83" height="14" rx="7" fill="url(#g)" fill-opacity="0.9"/>
+            <text x="61.5" y="188" text-anchor="middle" font-size="9" font-weight="800" fill="#05060A" font-family="Inter,'Segoe UI',sans-serif">Add</text>
+            <rect class="hl" style="animation-delay:0.0s" x="14" y="96" width="95" height="104" rx="9" fill="none" stroke="url(#g)" stroke-width="2"/>
+
+            <rect x="119" y="96" width="95" height="104" rx="9" fill="#131A27" stroke="#fff" stroke-opacity="0.08"/>
+            <rect x="125" y="102" width="83" height="44" rx="6" fill="url(#eg1)" fill-opacity="0.85"/>
+            <rect x="125" y="154" width="64" height="6" rx="3" fill="#fff" fill-opacity="0.24"/>
+            <rect x="125" y="166" width="40" height="5" rx="2.5" fill="#fff" fill-opacity="0.12"/>
+            <rect x="125" y="178" width="83" height="14" rx="7" fill="url(#g)" fill-opacity="0.9"/>
+            <text x="166.5" y="188" text-anchor="middle" font-size="9" font-weight="800" fill="#05060A" font-family="Inter,'Segoe UI',sans-serif">Add</text>
+            <rect class="hl" style="animation-delay:1.5s" x="119" y="96" width="95" height="104" rx="9" fill="none" stroke="url(#g)" stroke-width="2"/>
+
+            <rect x="224" y="96" width="95" height="104" rx="9" fill="#131A27" stroke="#fff" stroke-opacity="0.08"/>
+            <rect x="230" y="102" width="83" height="44" rx="6" fill="url(#eg2)" fill-opacity="0.85"/>
+            <rect x="230" y="154" width="64" height="6" rx="3" fill="#fff" fill-opacity="0.24"/>
+            <rect x="230" y="166" width="40" height="5" rx="2.5" fill="#fff" fill-opacity="0.12"/>
+            <rect x="230" y="178" width="83" height="14" rx="7" fill="url(#g)" fill-opacity="0.9"/>
+            <text x="271.5" y="188" text-anchor="middle" font-size="9" font-weight="800" fill="#05060A" font-family="Inter,'Segoe UI',sans-serif">Add</text>
+            <rect class="hl" style="animation-delay:3.0s" x="224" y="96" width="95" height="104" rx="9" fill="none" stroke="url(#g)" stroke-width="2"/>
+
+            <rect x="329" y="96" width="95" height="104" rx="9" fill="#131A27" stroke="#fff" stroke-opacity="0.08"/>
+            <rect x="335" y="102" width="83" height="44" rx="6" fill="url(#eg3)" fill-opacity="0.85"/>
+            <rect x="335" y="154" width="64" height="6" rx="3" fill="#fff" fill-opacity="0.24"/>
+            <rect x="335" y="166" width="40" height="5" rx="2.5" fill="#fff" fill-opacity="0.12"/>
+            <rect x="335" y="178" width="83" height="14" rx="7" fill="url(#g)" fill-opacity="0.9"/>
+            <text x="376.5" y="188" text-anchor="middle" font-size="9" font-weight="800" fill="#05060A" font-family="Inter,'Segoe UI',sans-serif">Add</text>
+            <rect class="hl" style="animation-delay:4.5s" x="329" y="96" width="95" height="104" rx="9" fill="none" stroke="url(#g)" stroke-width="2"/>
+          </g>
+          <rect width="440" height="216" rx="12" fill="none" stroke="#fff" stroke-opacity="0.14"/>
+        </g>
+
+        <text x="500" y="62" font-size="13" fill="#6B7280" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace">full-stack · 2025</text>
+        <text x="500" y="104" font-size="36" font-weight="700" fill="#F3F4F6" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif">EduMart</text>
+        <text x="500" y="142" font-size="16" fill="#9CA3AF" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif">E-commerce platform for students: OTP sign-up, cart, wishlist,</text>
+        <text x="500" y="166" font-size="16" fill="#9CA3AF" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif">reviews, orders and an admin dashboard for managing products.</text>
+
+        <!-- Tech Icons -->
+        <rect x="500" y="198" width="48" height="48" rx="14" fill="#fff" fill-opacity="0.04" stroke="#fff" stroke-opacity="0.12"/>
+        <g transform="translate(510.0 208.0) scale(1.1667)" fill="#61DAFB"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236m2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38a2.17 2.17 0 0 0-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44a23.5 23.5 0 0 0-3.107-.534A24 24 0 0 0 12.769 4.7c1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442a23 23 0 0 0-3.113.538 15 15 0 0 1-.254-1.42c-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05q.684.704 1.36 1.564c-.44-.02-.89-.034-1.345-.034q-.691-.001-1.36.034c.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093q.61.874 1.183 1.86.557.961 1.018 1.946c-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87a25.6 25.6 0 0 1-4.412.005 27 27 0 0 1-1.183-1.86q-.557-.961-1.018-1.946a25 25 0 0 1 1.013-1.954c.38-.66.773-1.286 1.18-1.868A25 25 0 0 1 12 8.098zm-3.635.254c-.24.377-.48.763-.704 1.16q-.336.585-.635 1.174c-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0q1.044.153 2.006.387c-.18.632-.405 1.282-.66 1.933a25.952 25.952 0 0 0-1.345-2.32zm3.063.675q.727.226 1.375.498c1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493a24 24 0 0 0-1.1-2.98c.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98a23 23 0 0 0-1.086 2.964c-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474s1.12-1.742 2.852-2.476c.42-.18.88-.342 1.356-.494m11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39a26 26 0 0 0 1.341-2.338zm-9.945.02c.2.392.41.783.64 1.175q.345.586.705 1.143a22 22 0 0 1-2.006-.386c.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295a1.2 1.2 0 0 1-.553-.132c-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64q.661.032 1.345.034.691.001 1.36-.034c-.44.572-.895 1.095-1.345 1.565q-.684-.706-1.36-1.565"/></g>
+        <rect x="558" y="198" width="48" height="48" rx="14" fill="#fff" fill-opacity="0.04" stroke="#fff" stroke-opacity="0.12"/>
+        <g transform="translate(568.0 208.0) scale(1.1667)" fill="#9B6BDF"><path d="M16.634 16.504c.87-.075 1.543-.84 1.5-1.754-.047-.914-.796-1.648-1.709-1.648h-.061a1.71 1.71 0 0 0-1.648 1.769c.03.479.226.869.494 1.153-1.048 2.038-2.621 3.536-5.005 4.795-1.603.838-3.296 1.154-4.944.93-1.378-.195-2.456-.81-3.116-1.799-.988-1.499-1.078-3.116-.255-4.734.6-1.17 1.499-2.023 2.099-2.443a10 10 0 0 1-.42-1.543C-.868 14.408-.416 18.752.932 20.805c1.004 1.498 3.057 2.456 5.304 2.456.6 0 1.23-.044 1.843-.194 3.897-.749 6.848-3.086 8.541-6.532zm5.348-3.746c-2.32-2.728-5.738-4.226-9.634-4.226h-.51c-.253-.554-.837-.899-1.498-.899h-.045c-.943 0-1.678.81-1.647 1.753.03.898.794 1.648 1.708 1.648h.074a1.69 1.69 0 0 0 1.499-1.049h.555c2.309 0 4.495.674 6.488 1.992 1.527 1.005 2.622 2.323 3.237 3.897.538 1.288.509 2.547-.045 3.597-.855 1.647-2.294 2.517-4.196 2.517-1.199 0-2.367-.375-2.967-.644-.36.298-.96.793-1.394 1.093 1.318.598 2.652.943 3.94.943 2.922 0 5.094-1.647 5.919-3.236.898-1.798.824-4.824-1.47-7.416zM6.49 17.042c.03.899.793 1.648 1.708 1.648h.06a1.69 1.69 0 0 0 1.648-1.768c0-.9-.779-1.647-1.693-1.647h-.06c-.06 0-.15 0-.226.029-1.243-2.098-1.768-4.347-1.572-6.772.12-1.828.72-3.417 1.797-4.735.9-1.124 2.593-1.68 3.747-1.708 3.236-.061 4.585 3.971 4.689 5.574l1.498.45C17.741 3.197 14.686.62 11.764.62 9.02.62 6.49 2.613 5.47 5.535 4.077 9.43 4.991 13.177 6.7 16.174c-.15.195-.24.539-.21.868"/></g>
+        <rect x="616" y="198" width="48" height="48" rx="14" fill="#fff" fill-opacity="0.04" stroke="#fff" stroke-opacity="0.12"/>
+        <g transform="translate(626.0 208.0) scale(1.1667)" fill="#3B9BFF"><path d="M20.229 15.793a.67.67 0 0 0 .244-.243.67.67 0 0 0 .09-.333l.012-3.858a.67.67 0 0 1 .09-.333.67.67 0 0 1 .245-.243L23 9.58a.67.67 0 0 1 .333-.088.67.67 0 0 1 .333.09.67.67 0 0 1 .244.243.67.67 0 0 1 .089.333v7.014a.67.67 0 0 1-.335.578l-7.893 4.534a.67.67 0 0 1-.662 0l-6.194-3.542a.67.67 0 0 1-.246-.244.67.67 0 0 1-.09-.335v-3.537q.001-.007.008-.004.01.003.008-.005v-.004q0-.004.004-.007l5.102-2.93c.004-.003.002-.01-.003-.01l-.004-.002-.001-.004.01-3.467a.67.67 0 0 0-.333-.58.67.67 0 0 0-.667 0L8.912 9.799a.67.67 0 0 1-.665 0l-3.804-2.19a.667.667 0 0 0-.999.577v6.267a.67.67 0 0 1-.332.577.67.67 0 0 1-.332.09.67.67 0 0 1-.333-.088L.336 13.825a.67.67 0 0 1-.246-.244.67.67 0 0 1-.09-.336L.019 2.292a.667.667 0 0 1 .998-.577l7.23 4.153a.67.67 0 0 0 .665 0l7.228-4.153a.67.67 0 0 1 .333-.088.67.67 0 0 1 .333.09.67.67 0 0 1 .244.244.67.67 0 0 1 .088.333V13.25c0 .117-.03.232-.089.334a.67.67 0 0 1-.245.244l-3.785 2.18a.67.67 0 0 0-.245.245.67.67 0 0 0-.089.334.67.67 0 0 0 .09.334.67.67 0 0 0 .247.244l2.088 1.189a.7.7 0 0 0 .33.087.67.67 0 0 0 .332-.089zm.438-9.828a.67.67 0 0 0 .09.335.67.67 0 0 0 .248.244.67.67 0 0 0 .67-.008l2.001-1.2a.67.67 0 0 0 .237-.243.67.67 0 0 0 .087-.329V2.32a.67.67 0 0 0-.091-.335.67.67 0 0 0-.584-.33.67.67 0 0 0-.334.094l-2 1.2a.67.67 0 0 0-.238.243.67.67 0 0 0-.086.329z"/></g>
+        <rect x="674" y="198" width="48" height="48" rx="14" fill="#fff" fill-opacity="0.04" stroke="#fff" stroke-opacity="0.12"/>
+        <g transform="translate(684.0 208.0) scale(1.1667)" fill="#6CC24A"><path d="M11.998 24c-.321 0-.641-.084-.922-.247L8.14 22.016c-.438-.245-.224-.332-.08-.383.585-.203.703-.25 1.328-.604.065-.037.151-.023.218.017l2.256 1.339a.29.29 0 0 0 .272 0l8.795-5.076a.28.28 0 0 0 .134-.238V6.921a.28.28 0 0 0-.137-.242l-8.791-5.072a.28.28 0 0 0-.271 0L3.075 6.68a.28.28 0 0 0-.139.241v10.15a.27.27 0 0 0 .139.235l2.409 1.392c1.307.654 2.108-.116 2.108-.89V7.787c0-.142.114-.253.256-.253h1.115c.139 0 .255.112.255.253v10.021c0 1.745-.95 2.745-2.604 2.745-.508 0-.909 0-2.026-.551L2.28 18.675a1.86 1.86 0 0 1-.922-1.604V6.921c0-.659.353-1.275.922-1.603L11.075.236a1.93 1.93 0 0 1 1.848 0l8.794 5.082c.57.329.924.944.924 1.603v10.15a1.86 1.86 0 0 1-.924 1.604l-8.794 5.078c-.28.163-.599.247-.925.247m7.101-10.007c0-1.9-1.284-2.406-3.987-2.763-2.731-.361-3.009-.548-3.009-1.187 0-.528.235-1.233 2.258-1.233 1.807 0 2.473.389 2.747 1.607a.254.254 0 0 0 .247.199h1.141a.26.26 0 0 0 .186-.081.26.26 0 0 0 .067-.196c-.177-2.098-1.571-3.076-4.388-3.076-2.508 0-4.004 1.058-4.004 2.833 0 1.925 1.488 2.457 3.895 2.695 2.88.282 3.103.703 3.103 1.269 0 .983-.789 1.402-2.642 1.402-2.327 0-2.839-.584-3.011-1.742a.255.255 0 0 0-.253-.215h-1.137a.25.25 0 0 0-.254.253c0 1.482.806 3.248 4.655 3.248 2.788.001 4.386-1.096 4.386-3.013"/></g>
+        <rect x="732" y="198" width="48" height="48" rx="14" fill="#fff" fill-opacity="0.04" stroke="#fff" stroke-opacity="0.12"/>
+        <g transform="translate(742.0 208.0) scale(1.1667)" fill="#F3F4F6"><path d="M24 18.588a1.53 1.53 0 0 1-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 0 1-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 0 1 1.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 0 1 1.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 0 0 0 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.08 4.08 0 0 0 2.582-2.876c.207-.666.548-.78 1.174-.588a5.42 5.42 0 0 1-2.589 3.957 6.27 6.27 0 0 1-7.306-.933 6.58 6.58 0 0 1-1.64-3.858c0-.235-.08-.455-.134-.666A88 88 0 0 1 0 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z"/></g>
+        <rect x="790" y="198" width="48" height="48" rx="14" fill="#fff" fill-opacity="0.04" stroke="#fff" stroke-opacity="0.12"/>
+        <g transform="translate(800.0 208.0) scale(1.1667)" fill="#4FB84F"><path d="M17.193 9.555c-1.264-5.58-4.252-7.414-4.573-8.115-.28-.394-.53-.954-.735-1.44-.036.495-.055.685-.523 1.184-.723.566-4.438 3.682-4.74 10.02-.282 5.912 4.27 9.435 4.888 9.884l.07.05A74 74 0 0 1 11.91 24h.481a29 29 0 0 1 .51-3.07c.417-.296.604-.463.85-.693a11.34 11.34 0 0 0 3.639-8.464c.01-.814-.103-1.662-.197-2.218m-5.336 8.195s0-8.291.275-8.29c.213 0 .49 10.695.49 10.695-.381-.045-.765-1.76-.765-2.405"/></g>
+      </g>
+    </a>
+
+    <!-- CARD 2: WHISPER -->
+    <a class="card-link" href="https://whisperit.vercel.app" xlink:href="https://whisperit.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="Open Whisper live site">
+      <g transform="translate(40 390)">
+        <rect class="card-bg" width="1120" height="280" rx="18" fill="#fff" fill-opacity="0.03" stroke="url(#g)" stroke-opacity="0.35" stroke-width="1.2"/>
+        <g class="ext-icon" transform="translate(1068, 28)">
+          <path d="M14 2h6v6M10 12L20 2M18 11v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h7" stroke="#9CA3AF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+
+        <g transform="translate(24 32)">
+          <g clip-path="url(#w1)">
+            <rect width="440" height="216" rx="12" fill="#0B0F1A"/>
+            <path d="M0 12a12 12 0 0 1 12-12H428a12 12 0 0 1 12 12V28H0Z" fill="#111827"/>
+            <circle cx="16" cy="14" r="4" fill="#FF5F56"/>
+            <circle cx="30" cy="14" r="4" fill="#FFBD2E"/>
+            <circle cx="44" cy="14" r="4" fill="#27C93F"/>
+            <rect x="120" y="6" width="200" height="16" rx="8" fill="#fff" fill-opacity="0.06"/>
+            <text x="220" y="17.2" text-anchor="middle" font-size="10" fill="#9CA3AF" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace">whisperit.vercel.app</text>
+            <line x1="0" y1="28" x2="440" y2="28" stroke="#fff" stroke-opacity="0.08"/>
+            <text x="14" y="47" font-size="12" font-weight="700" fill="#E5E7EB" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace"># public-room</text>
+            <circle class="pulse" cx="396" cy="43" r="3.5" fill="#34D399"/>
+            <text x="405" y="47" font-size="10" fill="#9CA3AF" font-family="Inter,'Segoe UI',sans-serif">live</text>
+
+            <g class="msg" style="animation-delay:0.4s">
+              <rect x="14" y="62" width="120" height="22" rx="11" fill="#1B2231"/>
+              <text x="74.0" y="77" text-anchor="middle" font-size="11" font-weight="500" fill="#E5E7EB" font-family="Inter,'Segoe UI',sans-serif">Hey, anyone here?</text>
+            </g>
+            <g class="msg" style="animation-delay:1.6s">
+              <rect x="306" y="88" width="120" height="22" rx="11" fill="url(#g)"/>
+              <text x="366.0" y="103" text-anchor="middle" font-size="11" font-weight="700" fill="#05060A" font-family="Inter,'Segoe UI',sans-serif">Yes! Just joined.</text>
+            </g>
+            <g class="msg" style="animation-delay:2.8s">
+              <rect x="14" y="114" width="142" height="22" rx="11" fill="#1B2231"/>
+              <text x="85.0" y="129" text-anchor="middle" font-size="11" font-weight="500" fill="#E5E7EB" font-family="Inter,'Segoe UI',sans-serif">Messages are instant.</text>
+            </g>
+            <g class="msg" style="animation-delay:4.0s">
+              <rect x="292" y="140" width="134" height="22" rx="11" fill="url(#g)"/>
+              <text x="359.0" y="155" text-anchor="middle" font-size="11" font-weight="700" fill="#05060A" font-family="Inter,'Segoe UI',sans-serif">Socket.IO + MongoDB</text>
+            </g>
+
+            <circle class="dotb" style="animation-delay:0.00s" cx="20" cy="172" r="2.5" fill="#9CA3AF"/>
+            <circle class="dotb" style="animation-delay:0.15s" cx="29" cy="172" r="2.5" fill="#9CA3AF"/>
+            <circle class="dotb" style="animation-delay:0.30s" cx="38" cy="172" r="2.5" fill="#9CA3AF"/>
+            <rect x="14" y="182" width="412" height="26" rx="13" fill="#fff" fill-opacity="0.05" stroke="#fff" stroke-opacity="0.08"/>
+            <text x="30" y="199" font-size="10" fill="#6B7280" font-family="Inter,'Segoe UI',sans-serif">Type a message…</text>
+            <circle cx="410" cy="195" r="9" fill="url(#g)"/>
+            <path d="M406 195h8m-3-3 3 3-3 3" stroke="#05060A" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <rect width="440" height="216" rx="12" fill="none" stroke="#fff" stroke-opacity="0.14"/>
+        </g>
+
+        <text x="500" y="62" font-size="13" fill="#6B7280" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace">full-stack · 2024</text>
+        <text x="500" y="104" font-size="36" font-weight="700" fill="#F3F4F6" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif">Whisper</text>
+        <text x="500" y="142" font-size="16" fill="#9CA3AF" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif">Real-time chat app built on Socket.IO with public rooms,</text>
+        <text x="500" y="166" font-size="16" fill="#9CA3AF" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif">saved chat history and password-protected private rooms.</text>
+
+        <!-- Tech Icons -->
+        <rect x="500" y="198" width="48" height="48" rx="14" fill="#fff" fill-opacity="0.04" stroke="#fff" stroke-opacity="0.12"/>
+        <g transform="translate(510.0 208.0) scale(1.1667)" fill="#61DAFB"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236m2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38a2.17 2.17 0 0 0-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44a23.5 23.5 0 0 0-3.107-.534A24 24 0 0 0 12.769 4.7c1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442a23 23 0 0 0-3.113.538 15 15 0 0 1-.254-1.42c-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05q.684.704 1.36 1.564c-.44-.02-.89-.034-1.345-.034q-.691-.001-1.36.034c.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093q.61.874 1.183 1.86.557.961 1.018 1.946c-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87a25.6 25.6 0 0 1-4.412.005 27 27 0 0 1-1.183-1.86q-.557-.961-1.018-1.946a25 25 0 0 1 1.013-1.954c.38-.66.773-1.286 1.18-1.868A25 25 0 0 1 12 8.098zm-3.635.254c-.24.377-.48.763-.704 1.16q-.336.585-.635 1.174c-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0q1.044.153 2.006.387c-.18.632-.405 1.282-.66 1.933a25.952 25.952 0 0 0-1.345-2.32zm3.063.675q.727.226 1.375.498c1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493a24 24 0 0 0-1.1-2.98c.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98a23 23 0 0 0-1.086 2.964c-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474s1.12-1.742 2.852-2.476c.42-.18.88-.342 1.356-.494m11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39a26 26 0 0 0 1.341-2.338zm-9.945.02c.2.392.41.783.64 1.175q.345.586.705 1.143a22 22 0 0 1-2.006-.386c.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295a1.2 1.2 0 0 1-.553-.132c-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64q.661.032 1.345.034.691.001 1.36-.034c-.44.572-.895 1.095-1.345 1.565q-.684-.706-1.36-1.565"/></g>
+        <rect x="558" y="198" width="48" height="48" rx="14" fill="#fff" fill-opacity="0.04" stroke="#fff" stroke-opacity="0.12"/>
+        <g transform="translate(568.0 208.0) scale(1.1667)" fill="#38BDF8"><path d="M12.001 4.8q-4.8 0-6 4.8 1.8-2.4 4.2-1.8c.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12q4.8 0 6-4.8-1.8 2.4-4.2 1.8c-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8m-6 7.2q-4.8 0-6 4.8 1.8-2.4 4.2-1.8c.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576q4.8 0 6-4.8-1.8 2.4-4.2 1.8c-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12"/></g>
+        <rect x="616" y="198" width="48" height="48" rx="14" fill="#fff" fill-opacity="0.04" stroke="#fff" stroke-opacity="0.12"/>
+        <g transform="translate(626.0 208.0) scale(1.1667)" fill="#6CC24A"><path d="M11.998 24c-.321 0-.641-.084-.922-.247L8.14 22.016c-.438-.245-.224-.332-.08-.383.585-.203.703-.25 1.328-.604.065-.037.151-.023.218.017l2.256 1.339a.29.29 0 0 0 .272 0l8.795-5.076a.28.28 0 0 0 .134-.238V6.921a.28.28 0 0 0-.137-.242l-8.791-5.072a.28.28 0 0 0-.271 0L3.075 6.68a.28.28 0 0 0-.139.241v10.15a.27.27 0 0 0 .139.235l2.409 1.392c1.307.654 2.108-.116 2.108-.89V7.787c0-.142.114-.253.256-.253h1.115c.139 0 .255.112.255.253v10.021c0 1.745-.95 2.745-2.604 2.745-.508 0-.909 0-2.026-.551L2.28 18.675a1.86 1.86 0 0 1-.922-1.604V6.921c0-.659.353-1.275.922-1.603L11.075.236a1.93 1.93 0 0 1 1.848 0l8.794 5.082c.57.329.924.944.924 1.603v10.15a1.86 1.86 0 0 1-.924 1.604l-8.794 5.078c-.28.163-.599.247-.925.247m7.101-10.007c0-1.9-1.284-2.406-3.987-2.763-2.731-.361-3.009-.548-3.009-1.187 0-.528.235-1.233 2.258-1.233 1.807 0 2.473.389 2.747 1.607a.254.254 0 0 0 .247.199h1.141a.26.26 0 0 0 .186-.081.26.26 0 0 0 .067-.196c-.177-2.098-1.571-3.076-4.388-3.076-2.508 0-4.004 1.058-4.004 2.833 0 1.925 1.488 2.457 3.895 2.695 2.88.282 3.103.703 3.103 1.269 0 .983-.789 1.402-2.642 1.402-2.327 0-2.839-.584-3.011-1.742a.255.255 0 0 0-.253-.215h-1.137a.25.25 0 0 0-.254.253c0 1.482.806 3.248 4.655 3.248 2.788.001 4.386-1.096 4.386-3.013"/></g>
+        <rect x="674" y="198" width="48" height="48" rx="14" fill="#fff" fill-opacity="0.04" stroke="#fff" stroke-opacity="0.12"/>
+        <g transform="translate(684.0 208.0) scale(1.1667)" fill="#F3F4F6"><path d="M24 18.588a1.53 1.53 0 0 1-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 0 1-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 0 1 1.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 0 1 1.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 0 0 0 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.08 4.08 0 0 0 2.582-2.876c.207-.666.548-.78 1.174-.588a5.42 5.42 0 0 1-2.589 3.957 6.27 6.27 0 0 1-7.306-.933 6.58 6.58 0 0 1-1.64-3.858c0-.235-.08-.455-.134-.666A88 88 0 0 1 0 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z"/></g>
+        <rect x="732" y="198" width="48" height="48" rx="14" fill="#fff" fill-opacity="0.04" stroke="#fff" stroke-opacity="0.12"/>
+        <g transform="translate(742.0 208.0) scale(1.1667)" fill="#F3F4F6"><path d="M11.936.014a12.2 12.2 0 0 0-2.975.378C4.281 1.555.568 5.794.091 10.602c-.59 4.548 1.709 9.285 5.644 11.634 3.861 2.418 9.093 2.32 12.874-.223 3.397-2.206 5.512-6.228 5.386-10.285-.058-4.016-2.31-7.916-5.76-9.98C16.355.589 14.144.006 11.937.015m-.063 1.696c4.945-.007 9.789 3.813 10.282 8.924.945 5.66-3.753 11.413-9.488 11.58-5.454.544-10.724-4.08-10.88-9.557-.406-4.434 2.517-8.834 6.698-10.3a9.1 9.1 0 0 1 3.388-.646zm5.091 3.225c-2.687 2.084-5.26 4.307-7.889 6.456 1.203.017 2.412.016 3.621.01 1.41-2.165 2.86-4.3 4.268-6.467m-5.665 7.653c-1.41 2.166-2.86 4.309-4.27 6.474 2.693-2.08 5.255-4.32 7.902-6.456a255 255 0 0 0-3.632-.018"/></g>
+        <rect x="790" y="198" width="48" height="48" rx="14" fill="#fff" fill-opacity="0.04" stroke="#fff" stroke-opacity="0.12"/>
+        <g transform="translate(800.0 208.0) scale(1.1667)" fill="#4FB84F"><path d="M17.193 9.555c-1.264-5.58-4.252-7.414-4.573-8.115-.28-.394-.53-.954-.735-1.44-.036.495-.055.685-.523 1.184-.723.566-4.438 3.682-4.74 10.02-.282 5.912 4.27 9.435 4.888 9.884l.07.05A74 74 0 0 1 11.91 24h.481a29 29 0 0 1 .51-3.07c.417-.296.604-.463.85-.693a11.34 11.34 0 0 0 3.639-8.464c.01-.814-.103-1.662-.197-2.218m-5.336 8.195s0-8.291.275-8.29c.213 0 .49 10.695.49 10.695-.381-.045-.765-1.76-.765-2.405"/></g>
+      </g>
+    </a>
+
+    <!-- CARD 3: SHOPSEE -->
+    <a class="card-link" href="https://theshopsee.vercel.app" xlink:href="https://theshopsee.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="Open Shopsee live site">
+      <g transform="translate(40 690)">
+        <rect class="card-bg" width="1120" height="280" rx="18" fill="#fff" fill-opacity="0.03" stroke="url(#g)" stroke-opacity="0.35" stroke-width="1.2"/>
+        <g class="ext-icon" transform="translate(1068, 28)">
+          <path d="M14 2h6v6M10 12L20 2M18 11v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h7" stroke="#9CA3AF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+
+        <g transform="translate(24 32)">
+          <g clip-path="url(#w2)">
+            <rect width="440" height="216" rx="12" fill="#0B0F1A"/>
+            <path d="M0 12a12 12 0 0 1 12-12H428a12 12 0 0 1 12 12V28H0Z" fill="#111827"/>
+            <circle cx="16" cy="14" r="4" fill="#FF5F56"/>
+            <circle cx="30" cy="14" r="4" fill="#FFBD2E"/>
+            <circle cx="44" cy="14" r="4" fill="#27C93F"/>
+            <rect x="120" y="6" width="200" height="16" rx="8" fill="#fff" fill-opacity="0.06"/>
+            <text x="220" y="17.2" text-anchor="middle" font-size="10" fill="#9CA3AF" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace">theshopsee.vercel.app</text>
+            <line x1="0" y1="28" x2="440" y2="28" stroke="#fff" stroke-opacity="0.08"/>
+
+            <!-- Storefront header -->
+            <text x="14" y="48" font-size="12" font-weight="700" fill="#F3F4F6" font-family="Inter,'Segoe UI',sans-serif">Shopsee</text>
+            <rect x="374" y="42" width="16" height="12" rx="3" fill="none" stroke="#9CA3AF" stroke-width="1.5"/>
+            <path d="M378 42v-2a4 4 0 0 1 8 0v2" fill="none" stroke="#9CA3AF" stroke-width="1.5"/>
+
+            <!-- Animated Hero Banner Slider -->
+            <g clip-path="url(#w2b)">
+              <g class="slide">
+                <g transform="translate(14, 64)">
+                  <rect width="412" height="76" rx="10" fill="url(#sg0)"/>
+                  <rect x="20" y="42" width="64" height="18" rx="9" fill="#0B0F1A" fill-opacity="0.85"/>
+                </g>
+                <g transform="translate(426, 64)">
+                  <rect width="412" height="76" rx="10" fill="url(#sg1)"/>
+                  <rect x="20" y="42" width="64" height="18" rx="9" fill="#0B0F1A" fill-opacity="0.85"/>
+                </g>
+                <g transform="translate(838, 64)">
+                  <rect width="412" height="76" rx="10" fill="url(#sg2)"/>
+                  <rect x="20" y="42" width="64" height="18" rx="9" fill="#0B0F1A" fill-opacity="0.85"/>
+                </g>
+                <g transform="translate(1250, 64)">
+                  <rect width="412" height="76" rx="10" fill="url(#sg3)"/>
+                  <rect x="20" y="42" width="64" height="18" rx="9" fill="#0B0F1A" fill-opacity="0.85"/>
+                </g>
+              </g>
+            </g>
+
+            <!-- Carousel Pagination Dots -->
+            <circle class="dotp" style="animation-delay:0s" cx="208" cy="149" r="3" fill="#F3F4F6"/>
+            <circle class="dotp" style="animation-delay:3s" cx="220" cy="149" r="3" fill="#F3F4F6"/>
+            <circle class="dotp" style="animation-delay:6s" cx="232" cy="149" r="3" fill="#F3F4F6"/>
+
+            <!-- Mini Product Cards Row -->
+            <rect x="14" y="159" width="95" height="44" rx="8" fill="#131A27" stroke="#fff" stroke-opacity="0.08"/>
+            <rect x="20" y="165" width="26" height="32" rx="5" fill="url(#sg0)"/>
+            <rect x="52" y="169" width="46" height="5" rx="2.5" fill="#fff" fill-opacity="0.24"/>
+            <rect x="52" y="179" width="32" height="4" rx="2" fill="#fff" fill-opacity="0.12"/>
+            <rect x="52" y="189" width="22" height="5" rx="2.5" fill="url(#g)"/>
+
+            <rect x="119" y="159" width="95" height="44" rx="8" fill="#131A27" stroke="#fff" stroke-opacity="0.08"/>
+            <rect x="125" y="165" width="26" height="32" rx="5" fill="url(#sg1)"/>
+            <rect x="157" y="169" width="46" height="5" rx="2.5" fill="#fff" fill-opacity="0.24"/>
+            <rect x="157" y="179" width="32" height="4" rx="2" fill="#fff" fill-opacity="0.12"/>
+            <rect x="157" y="189" width="22" height="5" rx="2.5" fill="url(#g)"/>
+
+            <rect x="224" y="159" width="95" height="44" rx="8" fill="#131A27" stroke="#fff" stroke-opacity="0.08"/>
+            <rect x="230" y="165" width="26" height="32" rx="5" fill="url(#sg2)"/>
+            <rect x="262" y="169" width="46" height="5" rx="2.5" fill="#fff" fill-opacity="0.24"/>
+            <rect x="262" y="179" width="32" height="4" rx="2" fill="#fff" fill-opacity="0.12"/>
+            <rect x="262" y="189" width="22" height="5" rx="2.5" fill="url(#g)"/>
+
+            <rect x="329" y="159" width="95" height="44" rx="8" fill="#131A27" stroke="#fff" stroke-opacity="0.08"/>
+            <rect x="335" y="165" width="26" height="32" rx="5" fill="url(#sg3)"/>
+            <rect x="367" y="169" width="46" height="5" rx="2.5" fill="#fff" fill-opacity="0.24"/>
+            <rect x="367" y="179" width="32" height="4" rx="2" fill="#fff" fill-opacity="0.12"/>
+            <rect x="367" y="189" width="22" height="5" rx="2.5" fill="url(#g)"/>
+          </g>
+          <rect width="440" height="216" rx="12" fill="none" stroke="#fff" stroke-opacity="0.14"/>
+        </g>
+
+        <text x="500" y="62" font-size="13" fill="#6B7280" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace">frontend · 2024</text>
+        <text x="500" y="104" font-size="36" font-weight="700" fill="#F3F4F6" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif">Shopsee</text>
+        <text x="500" y="142" font-size="16" fill="#9CA3AF" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif">Modern e-commerce storefront featuring dynamic hero banners,</text>
+        <text x="500" y="166" font-size="16" fill="#9CA3AF" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif">category filtering, interactive product cards and responsive cart.</text>
+
+        <!-- Tech Icons: JS, React, Tailwind -->
+        <rect x="500" y="198" width="48" height="48" rx="14" fill="#fff" fill-opacity="0.04" stroke="#fff" stroke-opacity="0.12"/>
+        <g transform="translate(510.0 208.0) scale(1.1667)" fill="#F7DF1E"><path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.603-.585-.78-.63-.705-1.463-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"/></g>
+        <rect x="558" y="198" width="48" height="48" rx="14" fill="#fff" fill-opacity="0.04" stroke="#fff" stroke-opacity="0.12"/>
+        <g transform="translate(568.0 208.0) scale(1.1667)" fill="#61DAFB"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236m2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38a2.17 2.17 0 0 0-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44a23.5 23.5 0 0 0-3.107-.534A24 24 0 0 0 12.769 4.7c1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442a23 23 0 0 0-3.113.538 15 15 0 0 1-.254-1.42c-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05q.684.704 1.36 1.564c-.44-.02-.89-.034-1.345-.034q-.691-.001-1.36.034c.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093q.61.874 1.183 1.86.557.961 1.018 1.946c-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87a25.6 25.6 0 0 1-4.412.005 27 27 0 0 1-1.183-1.86q-.557-.961-1.018-1.946a25 25 0 0 1 1.013-1.954c.38-.66.773-1.286 1.18-1.868A25 25 0 0 1 12 8.098zm-3.635.254c-.24.377-.48.763-.704 1.16q-.336.585-.635 1.174c-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0q1.044.153 2.006.387c-.18.632-.405 1.282-.66 1.933a25.952 25.952 0 0 0-1.345-2.32zm3.063.675q.727.226 1.375.498c1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493a24 24 0 0 0-1.1-2.98c.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98a23 23 0 0 0-1.086 2.964c-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474s1.12-1.742 2.852-2.476c.42-.18.88-.342 1.356-.494m11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39a26 26 0 0 0 1.341-2.338zm-9.945.02c.2.392.41.783.64 1.175q.345.586.705 1.143a22 22 0 0 1-2.006-.386c.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295a1.2 1.2 0 0 1-.553-.132c-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64q.661.032 1.345.034.691.001 1.36-.034c-.44.572-.895 1.095-1.345 1.565q-.684-.706-1.36-1.565"/></g>
+        <rect x="616" y="198" width="48" height="48" rx="14" fill="#fff" fill-opacity="0.04" stroke="#fff" stroke-opacity="0.12"/>
+        <g transform="translate(626.0 208.0) scale(1.1667)" fill="#38BDF8"><path d="M12.001 4.8q-4.8 0-6 4.8 1.8-2.4 4.2-1.8c.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12q4.8 0 6-4.8-1.8 2.4-4.2 1.8c-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8m-6 7.2q-4.8 0-6 4.8 1.8-2.4 4.2-1.8c.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576q4.8 0 6-4.8-1.8 2.4-4.2 1.8c-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12"/></g>
+      </g>
+    </a>
+  </g>
+</svg>

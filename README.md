@@ -1,4 +1,5 @@
-<p align="center">
+<div style="background-color: #ff5757; padding: 20px;">
+  <p align="center">
   <img src="assets/hero.svg" width="100%" alt="Yuvraj Bhatiya — Full-Stack Developer | MERN Stack" />
 </p>
 
@@ -9,9 +10,14 @@
 </p>
 
 <p align="center">
+  <img src="assets/projects.svg" width="100%" alt="Tech Stack: JavaScript, React.js, Node.js, Express.js, MongoDB and more" />
+</p>
+
+<p align="center">
   <img src="assets/tech-stack.svg" width="100%" alt="Tech Stack: JavaScript, React.js, Node.js, Express.js, MongoDB and more" />
 </p>
 
 <p align="center">
   <img src="assets/footer.svg" width="100%" alt="" />
 </p>
+</div>
