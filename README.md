@@ -1,24 +1,22 @@
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Yuvraj Bhatiya — Frontend Developer / Web Developer" />
+  <img src="assets/hero.svg" width="100%" alt="Yuvraj Bhatiya — Full-Stack Developer | MERN Stack" />
 </p>
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1V92x6x_dluOYGkNELxoGwxIzKvOIyrrL/view?usp=sharing"><img src="assets/btn-resume.svg" height="46" alt="Resume" /></a>&nbsp;
   <a href="https://www.linkedin.com/in/yvrjbhatiya/"><img src="assets/btn-linkedin.svg" height="46" alt="LinkedIn" /></a>&nbsp;
-  <a href="mailto:yvrjbhatiya@gmail.com"><img src="assets/btn-email.svg" height="46" alt="Email" /></a>&nbsp;
+  <a href="mailto:yuvrajbhatiya57@gmail.com"><img src="assets/btn-email.svg" height="46" alt="Email" /></a>&nbsp;
 </p>
 
 <br/>
 
-
-<h3>Stack</h3>
+<h3 align="center">Tech Stack</h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,html,css,react,nodejs,express,mongodb,mysql,git,github&perline=13" />
+  <img src="https://skillicons.dev/icons?i=js,html,css,react,redux,tailwind,materialui,bootstrap,nodejs,express,mongodb,mysql,git,github,postman,vercel&perline=8" />
 </p>
 
 <br/>
-
 
 <p align="center">
   <img src="assets/footer.svg" width="100%" alt="" />
