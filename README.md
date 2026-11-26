@@ -1,29 +1,65 @@
-<div style="background: linear-gradient(
-  90deg,
-  #05060A 0%,
-  #05060A 60%,
-  #1B1432 80%,
-  #34255D 100%
-); padding: 20px;">
+<div align="center">
+
+  <!-- 1. INTRO -->
+  <img src="./assets/hero.svg" alt="Yuvraj Singh Bhatiya - Intro" width="100%" />
+
+  <br />
+
+  <!-- ACTION BUTTONS (COMPACT) -->
   <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Yuvraj Bhatiya — Full-Stack Developer | MERN Stack" />
-</p>
+    <a href="mailto:yuvrajbhatiya57@example.com">
+      <img src="./assets/btn-email.svg" alt="Email" height="30" />
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">
+      <img src="./assets/btn-linkedin.svg" alt="LinkedIn" height="30" />
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://drive.google.com/file/d/166bIiajH_Hn_hfEGBOFpjkMEq6mVQpfh/view" target="_blank">
+      <img src="./assets/btn-resume.svg" alt="Resume" height="30" />
+    </a>
+  </p>
 
-<p align="center">
-  <a href="https://drive.google.com/file/d/166bIiajH_Hn_hfEGBOFpjkMEq6mVQpfh/view?usp=sharing"><img src="assets/btn-resume.svg" height="46" alt="Resume" /></a>&nbsp;
-  <a href="https://www.linkedin.com/in/yvrjbhatiya/"><img src="assets/btn-linkedin.svg" height="46" alt="LinkedIn" /></a>&nbsp;
-  <a href="mailto:yuvrajbhatiya57@gmail.com"><img src="assets/btn-email.svg" height="46" alt="Email" /></a>
-</p>
+</div>
 
-<p align="center">
-  <img src="assets/projects.svg" width="100%" alt="Tech Stack: JavaScript, React.js, Node.js, Express.js, MongoDB and more" />
-</p>
+## Featured Projects
 
-<p align="center">
-  <img src="assets/tech-stack.svg" width="100%" alt="Tech Stack: JavaScript, React.js, Node.js, Express.js, MongoDB and more" />
-</p>
+<div align="center">
+  <table width="100%" cellspacing="12" cellpadding="0">
+    <tr>
+      <td width="50%" valign="top">
+        <a href="https://edumart-ten.vercel.app" target="_blank">
+          <img src="./assets/project-edumart.svg" alt="Edumart" width="100%" />
+        </a>
+      </td>
+      <td width="50%" valign="top">
+        <a href="https://whisperit.vercel.app/" target="_blank">
+          <img src="./assets/project-whisper.svg" alt="Whisper" width="100%" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" valign="top">
+        <a href="https://theshopsee.vercel.app/" target="_blank">
+          <img src="./assets/project-shopsee.svg" alt="Shop-See" width="100%" />
+        </a>
+      </td>
+      <td width="50%" valign="top">
+        <a href="https://plannix-web.vercel.app/" target="_blank">
+          <img src="./assets/project-plannix.svg" alt="Plannix" width="100%" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
-<p align="center">
-  <img src="assets/footer.svg" width="100%" alt="" />
-</p>
+## Tech Stack
+
+<div align="center">
+  <img src="./assets/tech-stack.svg" alt="Tech Stack" width="100%" />
+
+  <br />
+
+  <!-- 4. FOOTER -->
+  <img src="./assets/footer.svg" alt="Footer" width="100%" />
 </div>

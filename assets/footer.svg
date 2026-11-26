@@ -1,21 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="">
-<defs>
-  <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="0.5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
-  <clipPath id="clip"><rect width="1200" height="150" rx="20"/></clipPath>
-</defs>
-<style>
-  .w1 { animation: drift 10s ease-in-out infinite alternate; }
-  .w2 { animation: drift 14s ease-in-out infinite alternate-reverse; }
-  .w3 { animation: drift 18s ease-in-out infinite alternate; }
-  @keyframes drift { from { transform: translateX(0) } to { transform: translateX(-140px) } }
-</style>
-<g clip-path="url(#clip)">
-  <rect width="1200" height="150" fill="#05060A"/>
-  <g class="w3" opacity="0.28"><path d="M -200 112 C 0 82 200 142 400 112 S 800 82 1000 112 S 1400 142 1600 112" fill="none" stroke="url(#g)" stroke-width="1.5"/></g>
-  <g class="w2" opacity="0.45"><path d="M -200 120 C 0 90 200 150 400 120 S 800 90 1000 120 S 1400 150 1600 120" fill="none" stroke="url(#g)" stroke-width="1.5"/></g>
-  <g class="w1" opacity="0.8"><path d="M -200 128 C 0 98 200 158 400 128 S 800 98 1000 128 S 1400 158 1600 128" fill="none" stroke="url(#g)" stroke-width="2"/></g>
-  <text x="600" y="58" text-anchor="middle" font-size="22" font-weight="600" fill="url(#g)" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif">Let’s build something great together.</text>
-  
-</g>
-<rect x="0.75" y="0.75" width="1198.5" height="148.5" rx="20" fill="none" stroke="url(#g)" stroke-opacity="0.4" stroke-width="1.5"/>
+<svg width="900" height="76" viewBox="0 0 900 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="76" rx="12" fill="#161B22" stroke="#30363D" stroke-width="1.5" />
+  <text x="36" y="43" fill="#8B949E" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Helvetica, Arial, sans-serif" font-size="13.5">
+    Open to Frontend &amp; Full-Stack Web Developer roles · Let’s build something useful.
+  </text>
+  <text x="864" y="43" text-anchor="end" fill="#58A6FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5">
+    @yvrjbhatiya
+  </text>
 </svg>

@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="52" viewBox="0 0 200 52" role="img" aria-label="Email">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="0.5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#F472B6"/></linearGradient></defs>
-<rect x="2" y="4" width="196" height="44" rx="22" fill="#0B0F1A"/><rect x="2.75" y="4.75" width="194.5" height="42.5" rx="21.5" fill="none" stroke="url(#g)" stroke-width="1.5"/><text x="100" y="31" text-anchor="middle" font-size="16" font-weight="600" fill="#F3F4F6" font-family="Inter,'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif">Email →</text>
+<svg width="132" height="38" viewBox="0 0 132 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.75" y="0.75" width="130.5" height="36.5" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1.5" />
+  <path d="M22 13.5H34C34.825 13.5 35.5 14.175 35.5 15V24C35.5 24.825 34.825 25.5 34 25.5H22C21.175 25.5 20.5 24.825 20.5 24V15C20.5 14.175 21.175 13.5 22 13.5Z" stroke="#58A6FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M35.5 15L28 20.25L20.5 15" stroke="#58A6FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="46" y="23.5" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600">Email Me</text>
 </svg>
