@@ -49,8 +49,3 @@
 </p>
 
 <br />
-
-<!-- FOOTER -->
-<p align="center">
-  <img src="./assets/footer.svg" width="90%" alt="Footer" />
-</p>
