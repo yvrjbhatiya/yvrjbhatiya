@@ -1,15 +1,45 @@
+
 <svg width="460" height="210" viewBox="0 0 460 210" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="plnGrad" x1="0" y1="0" x2="460" y2="210" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0F131D" />
-      <stop offset="100%" stop-color="#2B1D14" />
+      <stop offset="0%" stop-color="#080B16" />
+      <stop offset="55%" stop-color="#050A15" />
+      <stop offset="100%" stop-color="#172554" />
     </linearGradient>
-  </defs>
-  <rect width="460" height="210" rx="16" fill="url(#plnGrad)" stroke="#4D3624" stroke-width="2" />
 
-  <circle cx="30" cy="38" r="6" fill="#FFA657" />
+    <pattern id="plnDots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#E6EDF3" fill-opacity="0.07" />
+    </pattern>
+
+    <radialGradient id="plnBlueGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(390 25) rotate(135) scale(190 130)">
+      <stop stop-color="#58A6FF" stop-opacity="0.25" />
+      <stop offset="1" stop-color="#58A6FF" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="plnPurpleGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(40 205) rotate(-35) scale(180 110)">
+      <stop stop-color="#A371F7" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#A371F7" stop-opacity="0" />
+    </radialGradient>
+
+    <clipPath id="plnClip">
+      <rect width="460" height="210" rx="16" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#plnClip)">
+    <rect width="460" height="210" fill="url(#plnGrad)" />
+    <rect width="460" height="210" fill="url(#plnDots)" />
+    <rect width="460" height="210" fill="url(#plnBlueGlow)" />
+    <rect width="460" height="210" fill="url(#plnPurpleGlow)" />
+  </g>
+
+  <rect width="460" height="210" rx="16" stroke="#303F60" stroke-width="1.5" />
+
+  <circle cx="30" cy="38" r="6" fill="#58A6FF" />
   <text x="46" y="45" fill="#F0F6FC" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold">Plannix</text>
-  <text x="430" y="43" text-anchor="end" fill="#FFA657" font-family="Courier New, Courier, monospace" font-size="13" font-weight="bold">AI KANBAN</text>
+  <text x="430" y="43" text-anchor="end" fill="#A371F7" font-family="Courier New, Courier, monospace" font-size="13" font-weight="bold">AI KANBAN</text>
 
   <text x="26" y="80" fill="#9BA3AF" font-family="Arial, Helvetica, sans-serif" font-size="15">
     AI-native collaborative Kanban board — describe a goal
@@ -18,12 +48,13 @@
     in one line and Groq AI builds your live team backlog.
   </text>
 
-  <rect x="26" y="148" width="72" height="30" rx="15" fill="#161B22" stroke="#3FB950" stroke-width="1.5" />
-  <text x="62" y="168" text-anchor="middle" fill="#3FB950" font-family="Courier New, Courier, monospace" font-size="12.5" font-weight="bold">MERN</text>
+  <rect x="26" y="148" width="72" height="30" rx="15" fill="#101B30" stroke="#58A6FF" stroke-width="1.5" />
+  <text x="62" y="168" text-anchor="middle" fill="#79C0FF" font-family="Courier New, Courier, monospace" font-size="12.5" font-weight="bold">MERN</text>
 
-  <rect x="106" y="148" width="104" height="30" rx="15" fill="#161B22" stroke="#79C0FF" stroke-width="1.5" />
+  <rect x="106" y="148" width="104" height="30" rx="15" fill="#101B30" stroke="#79C0FF" stroke-width="1.5" />
   <text x="158" y="168" text-anchor="middle" fill="#79C0FF" font-family="Courier New, Courier, monospace" font-size="12.5" font-weight="bold">Socket.io</text>
 
-  <rect x="218" y="148" width="92" height="30" rx="15" fill="#161B22" stroke="#FFA657" stroke-width="1.5" />
-  <text x="264" y="168" text-anchor="middle" fill="#FFA657" font-family="Courier New, Courier, monospace" font-size="12.5" font-weight="bold">Groq AI</text>
+  <rect x="218" y="148" width="92" height="30" rx="15" fill="#17152E" stroke="#A371F7" stroke-width="1.5" />
+  <text x="264" y="168" text-anchor="middle" fill="#C9A7FF" font-family="Courier New, Courier, monospace" font-size="12.5" font-weight="bold">Groq AI</text>
 </svg>
+

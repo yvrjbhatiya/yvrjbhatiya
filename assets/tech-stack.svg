@@ -1,84 +1,108 @@
+
 <svg width="960" height="108" viewBox="0 0 960 108" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="stackBg" x1="0" y1="0" x2="960" y2="108" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0B1020" />
-      <stop offset="50%" stop-color="#121A2F" />
-      <stop offset="100%" stop-color="#19162B" />
+      <stop offset="0%" stop-color="#080B16" />
+      <stop offset="55%" stop-color="#050A15" />
+      <stop offset="100%" stop-color="#172554" />
     </linearGradient>
-  </defs>
-  <rect width="960" height="108" rx="14" fill="url(#stackBg)" stroke="#2E3A52" stroke-width="1.5" />
 
-  
+    <radialGradient id="stackBlueGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(780 0) rotate(135) scale(340 150)">
+      <stop stop-color="#58A6FF" stop-opacity="0.25" />
+      <stop offset="1" stop-color="#58A6FF" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="stackPurpleGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(100 108) rotate(-35) scale(300 130)">
+      <stop stop-color="#A371F7" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#A371F7" stop-opacity="0" />
+    </radialGradient>
+
+    <clipPath id="stackClip">
+      <rect width="960" height="108" rx="14" />
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <g clip-path="url(#stackClip)">
+    <rect width="960" height="108" fill="url(#stackBg)" />
+    <rect width="960" height="108" fill="url(#stackBlueGlow)" />
+    <rect width="960" height="108" fill="url(#stackPurpleGlow)" />
+  </g>
+  <rect width="960" height="108" rx="14" stroke="#303F60" stroke-width="1.5" />
+
+  <!-- JavaScript -->
   <g transform="translate(22, 22)">
-    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <rect width="64" height="64" rx="15" fill="#151E33" />
     <rect x="17" y="17" width="30" height="30" rx="4" fill="#F7DF1E" />
-    <text x="32" y="40" text-anchor="middle" fill="#000000" font-family="Courier New, Courier, monospace" font-size="15" font-weight="bold">JS</text>
+    <text x="32" y="40" text-anchor="middle" fill="#000000" font-family="Courier New, monospace" font-size="15" font-weight="bold">JS</text>
   </g>
 
-  
+  <!-- HTML5 -->
   <g transform="translate(99, 22)">
-    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <rect width="64" height="64" rx="15" fill="#151E33" />
     <path d="M19 17H45L42.6 43.5L32 46.5L21.4 43.5L19 17Z" fill="#E34F26" />
     <path d="M32 19.5V44L40.3 41.6L42.2 19.5H32Z" fill="#EF652A" />
     <path d="M24 24.5H39.5L39 29H28.5L29 33.5H38.5L37.6 40L32 41.5L26.4 40L26 36.5H29.8L30 38.4L32 39L34 38.4L34.3 36H25L24 24.5Z" fill="#FFFFFF" />
   </g>
 
-  
+  <!-- CSS3 -->
   <g transform="translate(176, 22)">
-    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <rect width="64" height="64" rx="15" fill="#151E33" />
     <path d="M19 17H45L42.6 43.5L32 46.5L21.4 43.5L19 17Z" fill="#1572B6" />
     <path d="M32 19.5V44L40.3 41.6L42.2 19.5H32Z" fill="#33A9DC" />
     <path d="M24.2 24.5H39.5L39 29H29.2L29.5 32.5H38.6L37.5 40.2L32 41.7L26.5 40.2L26.2 36.5H29.9L30.1 38.4L32 39L33.9 38.4L34.3 35.2H25.2L24.2 24.5Z" fill="#FFFFFF" />
   </g>
 
-  
+  <!-- React -->
   <g transform="translate(253, 22)">
-    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <rect width="64" height="64" rx="15" fill="#151E33" />
     <circle cx="32" cy="32" r="4.2" fill="#61DAFB" />
     <ellipse cx="32" cy="32" rx="16.5" ry="6.5" stroke="#61DAFB" stroke-width="2" />
     <ellipse cx="32" cy="32" rx="16.5" ry="6.5" transform="rotate(60 32 32)" stroke="#61DAFB" stroke-width="2" />
     <ellipse cx="32" cy="32" rx="16.5" ry="6.5" transform="rotate(-60 32 32)" stroke="#61DAFB" stroke-width="2" />
   </g>
 
-  
+  <!-- Material UI -->
   <g transform="translate(330, 22)">
-    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <rect width="64" height="64" rx="15" fill="#151E33" />
     <polygon points="16,20 25,26 25,40 16,34" fill="#007FFF" />
     <polygon points="25,26 34,20 34,34 25,40" fill="#0059B2" />
     <polygon points="34,20 43,14 43,28 34,34" fill="#007FFF" />
     <polygon points="34,34 43,28 43,40 34,46" fill="#3399FF" />
   </g>
 
-  
+  <!-- Node.js -->
   <g transform="translate(407, 22)">
-    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <rect width="64" height="64" rx="15" fill="#151E33" />
     <polygon points="32,16 45,23.5 45,40.5 32,48 19,40.5 19,23.5" fill="#339933" />
-    <text x="32" y="36.5" text-anchor="middle" fill="#FFFFFF" font-family="Courier New, Courier, monospace" font-size="13" font-weight="bold">JS</text>
+    <text x="32" y="36.5" text-anchor="middle" fill="#FFFFFF" font-family="Courier New, monospace" font-size="13" font-weight="bold">JS</text>
   </g>
 
-  
+  <!-- Express -->
   <g transform="translate(484, 22)">
-    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
-    <text x="32" y="37" text-anchor="middle" fill="#F0F6FC" font-family="Courier New, Courier, monospace" font-size="14" font-weight="bold">ex()</text>
+    <rect width="64" height="64" rx="15" fill="#151E33" />
+    <text x="32" y="37" text-anchor="middle" fill="#F0F6FC" font-family="Courier New, monospace" font-size="14" font-weight="bold">ex()</text>
   </g>
 
-  
+  <!-- MongoDB -->
   <g transform="translate(561, 22)">
-    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <rect width="64" height="64" rx="15" fill="#151E33" />
     <path d="M32 16C37 22.5 40 28.5 40 34.5C40 40.5 36.5 45 32.6 47.2L32 48L31.4 47.2C27.5 45 24 40.5 24 34.5C24 28.5 27 22.5 32 16Z" fill="#47A248" />
     <path d="M32 16V48" stroke="#116149" stroke-width="1.8" />
   </g>
 
-  
+  <!-- MySQL -->
   <g transform="translate(638, 22)">
-    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <rect width="64" height="64" rx="15" fill="#151E33" />
     <path d="M20 38C22 33 27 24 36 21C39.5 19.8 42.5 20.5 44 22.5C41 22.5 38.5 24.5 37.5 27.5C40.5 27.5 43.5 29.5 44.5 32.5" stroke="#00758F" stroke-width="2.4" stroke-linecap="round" />
     <path d="M22 41C26 40 31 38 35 35" stroke="#F29111" stroke-width="2.2" stroke-linecap="round" />
   </g>
 
-  
+  <!-- Git -->
   <g transform="translate(715, 22)">
-    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <rect width="64" height="64" rx="15" fill="#151E33" />
     <rect x="22.8" y="22.8" width="18.4" height="18.4" rx="3.5" transform="rotate(45 32 32)" fill="#F05032" />
     <circle cx="32" cy="25" r="2.5" fill="#FFFFFF" />
     <circle cx="32" cy="39" r="2.5" fill="#FFFFFF" />
@@ -87,16 +111,17 @@
     <line x1="32" y1="28.5" x2="36.5" y2="30.5" stroke="#FFFFFF" stroke-width="2" />
   </g>
 
-  
+  <!-- Vercel -->
   <g transform="translate(792, 22)">
-    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <rect width="64" height="64" rx="15" fill="#151E33" />
     <polygon points="32,19 46,43 18,43" fill="#FFFFFF" />
   </g>
 
-  
+  <!-- Next.js -->
   <g transform="translate(869, 22)">
-    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <rect width="64" height="64" rx="15" fill="#151E33" />
     <path d="M21 39V25C21 21.5 24 19 27.5 19C31 19 33.5 21.5 33.5 25C33.5 28.5 31 31 27.5 31H24L35 41" stroke="#46E3B7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
     <circle cx="40" cy="26" r="3.5" fill="#46E3B7" />
   </g>
 </svg>
+

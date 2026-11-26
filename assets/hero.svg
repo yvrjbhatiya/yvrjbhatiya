@@ -1,43 +1,146 @@
+
 <svg width="900" height="230" viewBox="0 0 900 230" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="heroBg" x1="0" y1="0" x2="900" y2="230" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0B1020" />
-      <stop offset="55%" stop-color="#131B2E" />
-      <stop offset="100%" stop-color="#25184e" />
+      <stop offset="0%" stop-color="#080B16"/>
+      <stop offset="55%" stop-color="#050A15"/>
+      <stop offset="100%" stop-color="#172554"/>
     </linearGradient>
-    <linearGradient id="accentBar" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#58A6FF" />
-      <stop offset="100%" stop-color="#3FB950" />
+
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#A371F7" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#A371F7" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#E6EDF3" fill-opacity="0.07"/>
+    </pattern>
+
+    <linearGradient id="windowGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111C32"/>
+      <stop offset="100%" stop-color="#0A1020"/>
     </linearGradient>
+
+    <linearGradient id="codeGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="100%" stop-color="#A371F7"/>
+    </linearGradient>
+
+    <clipPath id="heroClip">
+      <rect width="900" height="230" rx="14"/>
+    </clipPath>
+
+    <clipPath id="codeClip">
+      <rect x="665" y="57" width="185" height="111" rx="8"/>
+    </clipPath>
   </defs>
 
-  <rect width="900" height="230" rx="14" fill="url(#heroBg)" stroke="#2E3A52" stroke-width="1.5" />
+  <g clip-path="url(#heroClip)">
+    <!-- Background -->
+    <rect width="900" height="230" fill="url(#heroBg)"/>
+    <rect width="900" height="230" fill="url(#dots)"/>
+    <circle cx="100" cy="20" r="220" fill="url(#glowA)"/>
+    <circle cx="850" cy="210" r="240" fill="url(#glowB)"/>
 
-  <circle cx="830" cy="40" r="2.5" fill="#2E3A52" />
-  <circle cx="850" cy="40" r="2.5" fill="#2E3A52" />
-  <circle cx="870" cy="40" r="2.5" fill="#2E3A52" />
-  <circle cx="830" cy="60" r="2.5" fill="#2E3A52" />
-  <circle cx="850" cy="60" r="2.5" fill="#58A6FF" />
-  <circle cx="870" cy="60" r="2.5" fill="#2E3A52" />
-  <circle cx="830" cy="80" r="2.5" fill="#2E3A52" />
-  <circle cx="850" cy="80" r="2.5" fill="#2E3A52" />
-  <circle cx="870" cy="80" r="2.5" fill="#3FB950" />
+    <!-- Profile label -->
+    <rect x="40" y="32" width="168" height="26" rx="13" fill="#162038" fill-opacity="0.85" stroke="#2E3A52"/>
+    <circle cx="56" cy="45" r="4" fill="#3FB950"/>
+    <text x="68" y="49" fill="#9FB0CC" font-family="Courier New, monospace" font-size="12">~/yvrjbhatiya</text>
 
-  <rect x="40" y="32" width="168" height="26" rx="13" fill="#162038" stroke="#2E3A52" />
-  <circle cx="56" cy="45" r="4" fill="#3FB950" />
-  <text x="68" y="49" fill="#9FB0CC" font-family="Courier New, Courier, monospace" font-size="12">~/yvrjbhatiya</text>
+    <!-- Name -->
+    <text x="38" y="102" fill="#F0F6FC" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="bold">
+      Yuvraj Singh Bhatiya
+    </text>
 
-  <text x="38" y="102" fill="#F0F6FC" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="bold">
-    Yuvraj Singh Bhatiya
-  </text>
+    <!-- Role -->
+    <text x="40" y="140" fill="#58A6FF" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold">
+      Full-Stack Developer | MERN Stack
+    </text>
 
-  <text x="40" y="140" fill="#58A6FF" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold">
-    Full-Stack Developer | MERN Stack
-  </text>
-  <text x="40" y="174" fill="#9BA3AF" font-family="Arial, Helvetica, sans-serif" font-size="14">
-Responsive Web Designs • Full-Stack Development •  Designing Interfaces
-  </text>
-  <text x="40" y="198" fill="#6E7681" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="12">
-    MCA (Graphic Era University) · BCA (Kumaun University) · Uttarakhand, India
-  </text>
+    <!-- Tagline -->
+    <text x="40" y="174" fill="#9BA3AF" font-family="Arial, Helvetica, sans-serif" font-size="14">
+      Responsive Web Designs • Full-Stack Development • Designing Interfaces
+    </text>
+
+    <!-- Education -->
+    <text x="40" y="198" fill="#9BA3AF" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="12">
+      MCA (Graphic Era University) · BCA (Kumaun University) · Uttarakhand, India
+    </text>
+
+    <!-- RIGHT: Floating code window shadow -->
+    <rect x="659" y="55" width="197" height="122" rx="11" fill="#58A6FF" opacity="0.08">
+      <animate attributeName="opacity" values="0.04;0.13;0.04" dur="3s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Code window -->
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0;0 -5;0 0" dur="4s" repeatCount="indefinite"/>
+
+      <rect x="665" y="51" width="185" height="117" rx="8"
+        fill="url(#windowGrad)" stroke="#344A70" stroke-width="1.2"/>
+
+      <!-- Window header -->
+      <path d="M665 59 Q665 51 673 51 H842 Q850 51 850 59 V72 H665 Z"
+        fill="#192640"/>
+
+      <circle cx="679" cy="62" r="3" fill="#FF6B6B"/>
+      <circle cx="690" cy="62" r="3" fill="#E3B341"/>
+      <circle cx="701" cy="62" r="3" fill="#3FB950"/>
+
+      <text x="757" y="65" text-anchor="middle" fill="#8295B5"
+        font-family="Courier New, monospace" font-size="8">developer.js</text>
+
+      <!-- Code content -->
+      <g clip-path="url(#codeClip)">
+        <g>
+          <animateTransform attributeName="transform" type="translate"
+            values="0 0;0 -12;0 0" dur="5s" repeatCount="indefinite"/>
+
+          <text x="676" y="91" fill="#8295B5" font-family="Courier New, monospace" font-size="9">01</text>
+          <text x="696" y="91" fill="#C9A7FF" font-family="Courier New, monospace" font-size="9">const</text>
+          <text x="724" y="91" fill="#79C0FF" font-family="Courier New, monospace" font-size="9">developer</text>
+          <text x="775" y="91" fill="#F0F6FC" font-family="Courier New, monospace" font-size="9">= {</text>
+
+          <text x="676" y="108" fill="#8295B5" font-family="Courier New, monospace" font-size="9">02</text>
+          <text x="705" y="108" fill="#79C0FF" font-family="Courier New, monospace" font-size="9">stack:</text>
+          <text x="741" y="108" fill="#A5D6FF" font-family="Courier New, monospace" font-size="9">"MERN",</text>
+
+          <text x="676" y="125" fill="#8295B5" font-family="Courier New, monospace" font-size="9">03</text>
+          <text x="705" y="125" fill="#79C0FF" font-family="Courier New, monospace" font-size="9">build:</text>
+          <text x="741" y="125" fill="#A5D6FF" font-family="Courier New, monospace" font-size="9">"Ideas",</text>
+
+          <text x="676" y="142" fill="#8295B5" font-family="Courier New, monospace" font-size="9">04</text>
+          <text x="705" y="142" fill="#79C0FF" font-family="Courier New, monospace" font-size="9">status:</text>
+          <text x="747" y="142" fill="#3FB950" font-family="Courier New, monospace" font-size="9">"Coding"</text>
+
+          <text x="696" y="159" fill="#F0F6FC" font-family="Courier New, monospace" font-size="9">};</text>
+        </g>
+      </g>
+
+      <!-- Typing cursor -->
+      <rect x="816" y="149" width="2" height="11" fill="#58A6FF">
+        <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    
+    <!-- Small floating sparkles -->
+    <circle cx="866" cy="82" r="2.5" fill="#58A6FF">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="646" cy="82" r="2" fill="#A371F7">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="866" cy="145" r="2" fill="#A371F7">
+      <animate attributeName="r" values="1.5;3;1.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <rect x="0.75" y="0.75" width="898.5" height="228.5" rx="14"
+    fill="none" stroke="#30363D" stroke-opacity="0.8" stroke-width="1.5"/>
 </svg>
