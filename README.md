@@ -2,7 +2,7 @@
 <div align="center" background>
   <img src="./assets/hero.svg" alt="Yuvraj Singh Bhatiya - Intro" width="100%" />
 
-  <br />
+  <br /> <br />
 
   <a href="mailto:yuvrajbhatiya57@example.com">
     <img src="./assets/btn-email.svg" alt="Email" height="30" />
