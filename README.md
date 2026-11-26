@@ -6,7 +6,7 @@
 
 <!-- ACTION BUTTONS -->
 <p align="center">
-  <a href="https://drive.google.com/file/d/166bIiajH_Hn_hfEGBOFpjkMEq6mVQpfh/view">
+  <a href="https://drive.google.com/file/d/14nucyj4SmYJX6yS0usjVvbUxNsBNqILO/view?usp=drive_link">
     <img src="./assets/btn-resume.svg" height="46" alt="Resume" />
   </a>&nbsp;
   <a href="https://www.linkedin.com/in/yvrjbhatiya/">
