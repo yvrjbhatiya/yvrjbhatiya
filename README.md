@@ -1,5 +1,5 @@
 <!-- 1. INTRO SECTION -->
-<div align="center">
+<div align="center" background>
   <img src="./assets/hero.svg" alt="Yuvraj Singh Bhatiya - Intro" width="100%" />
 
   <br />
