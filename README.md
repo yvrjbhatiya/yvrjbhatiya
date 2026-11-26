@@ -25,7 +25,7 @@
 ## Featured Projects
 
 <div align="center">
-  <table width="100%" cellspacing="12" cellpadding="0">
+  <table width="100%" cellspacing="12" cellpadding="0"  >
     <tr>
       <td width="50%" valign="top">
         <a href="https://edumart-ten.vercel.app" target="_blank">
@@ -58,8 +58,9 @@
 <div align="center">
   <img src="./assets/tech-stack.svg" alt="Tech Stack" width="100%" />
 
-  <br />
+  <br />  <br />
+
 
   <!-- 4. FOOTER -->
-  <img src="./assets/footer.svg" alt="Footer" width="100%" />
+  <img src="./assets/footer.svg" alt="Footer" width="80%" />
 </div>
