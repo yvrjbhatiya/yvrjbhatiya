@@ -25,7 +25,7 @@
 <p align="center">
   <a href="https://edumart-ten.vercel.app">
     <img src="./assets/project-edumart.svg" width="49%" alt="Edumart" />
-  </a>
+  </a>&nbsp;
   <a href="https://whisperit.vercel.app/">
     <img src="./assets/project-whisper.svg" width="49%" alt="Whisper" />
   </a>
@@ -34,7 +34,7 @@
 <p align="center">
   <a href="https://theshopsee.vercel.app/">
     <img src="./assets/project-shopsee.svg" width="49%" alt="Shop-See" />
-  </a>
+  </a>&nbsp;
   <a href="https://plannix-web.vercel.app/">
     <img src="./assets/project-plannix.svg" width="49%" alt="Plannix" />
   </a>
