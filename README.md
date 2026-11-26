@@ -1,31 +1,29 @@
+<!-- 1. INTRO SECTION -->
 <div align="center">
-
-  <!-- 1. INTRO -->
   <img src="./assets/hero.svg" alt="Yuvraj Singh Bhatiya - Intro" width="100%" />
 
   <br />
 
-  <!-- ACTION BUTTONS (COMPACT) -->
-  <p align="center">
-    <a href="mailto:yuvrajbhatiya57@example.com">
-      <img src="./assets/btn-email.svg" alt="Email" height="30" />
-    </a>
-    &nbsp;&nbsp;
-    <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">
-      <img src="./assets/btn-linkedin.svg" alt="LinkedIn" height="30" />
-    </a>
-    &nbsp;&nbsp;
-    <a href="https://drive.google.com/file/d/166bIiajH_Hn_hfEGBOFpjkMEq6mVQpfh/view" target="_blank">
-      <img src="./assets/btn-resume.svg" alt="Resume" height="30" />
-    </a>
-  </p>
-
+  <a href="mailto:yuvrajbhatiya57@example.com">
+    <img src="./assets/btn-email.svg" alt="Email" height="30" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/yvrjbhatiya/" target="_blank">
+    <img src="./assets/btn-linkedin.svg" alt="LinkedIn" height="30" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://drive.google.com/file/d/166bIiajH_Hn_hfEGBOFpjkMEq6mVQpfh/view" target="_blank">
+    <img src="./assets/btn-resume.svg" alt="Resume" height="30" />
+  </a>
 </div>
 
-## Featured Projects
+<br />
 
+<!-- 2. FEATURED PROJECTS SECTION -->
 <div align="center">
-  <table width="100%" cellspacing="12" cellpadding="0"  >
+  <h2 align="left">Featured Projects</h2>
+
+  <table width="100%" cellspacing="12" cellpadding="0">
     <tr>
       <td width="50%" valign="top">
         <a href="https://edumart-ten.vercel.app" target="_blank">
@@ -53,14 +51,18 @@
   </table>
 </div>
 
-## Tech Stack
+<br />
 
+<!-- 3. TECH STACK SECTION -->
 <div align="center">
+  <h2 align="left">Tech Stack</h2>
+
   <img src="./assets/tech-stack.svg" alt="Tech Stack" width="100%" />
+</div>
 
-  <br />
+<br />
 
-
-  <!-- 4. FOOTER -->
-  <img src="./assets/footer.svg" alt="Footer" width="80%" />
+<!-- 4. FOOTER SECTION -->
+<div align="center">
+  <img src="./assets/footer.svg" alt="Footer" width="85%" />
 </div>
