@@ -19,17 +19,24 @@
 <!-- FEATURED PROJECTS -->
 <h3 align="center">Featured Projects</h3>
 
-<div align="center">
-  <a href="https://edumart-ten.vercel.app"><img src="./assets/project-edumart.svg" width="48%" alt="Edumart" /></a>
-  &nbsp;
-  <a href="https://whisperit.vercel.app/"><img src="./assets/project-whisper.svg" width="48%" alt="Whisper" /></a>
-</div>
-&nbsp;
-<div align="center">
-  <a href="https://theshopsee.vercel.app/"><img src="./assets/project-shopsee.svg" width="48%" alt="Shop-See" /></a>
-  &nbsp;
-  <a href="https://plannix-web.vercel.app/"><img src="./assets/project-plannix.svg" width="48%" alt="Plannix" /></a>
-</div>
+<table align="center" width="100%" border="0" cellspacing="0" cellpadding="8">
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://edumart-ten.vercel.app"><img src="./assets/project-edumart.svg" width="100%" alt="Edumart" /></a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://whisperit.vercel.app/"><img src="./assets/project-whisper.svg" width="100%" alt="Whisper" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://theshopsee.vercel.app/"><img src="./assets/project-shopsee.svg" width="100%" alt="Shop-See" /></a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://plannix-web.vercel.app/"><img src="./assets/project-plannix.svg" width="100%" alt="Plannix" /></a>
+    </td>
+  </tr>
+</table>
 
 <br />
 
