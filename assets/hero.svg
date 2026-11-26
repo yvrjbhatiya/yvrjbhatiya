@@ -2,9 +2,9 @@
 <svg width="900" height="230" viewBox="0 0 900 230" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="heroBg" x1="0" y1="0" x2="900" y2="230" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#080B16"/>
-      <stop offset="55%" stop-color="#050A15"/>
-      <stop offset="100%" stop-color="#172554"/>
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="55%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#000000"/>
     </linearGradient>
 
     <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">

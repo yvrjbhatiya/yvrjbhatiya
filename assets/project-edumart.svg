@@ -3,9 +3,9 @@
   <defs>
     <!-- Midnight Blue Gradient -->
     <linearGradient id="eduGrad" x1="0" y1="0" x2="460" y2="210" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#080B16" />
-      <stop offset="55%" stop-color="#050A15" />
-      <stop offset="100%" stop-color="#172554" />
+      <stop offset="0%" stop-color="#000000" />
+      <stop offset="55%" stop-color="#000000" />
+      <stop offset="100%" stop-color="#000000" />
     </linearGradient>
 
     <!-- Blue Glow -->

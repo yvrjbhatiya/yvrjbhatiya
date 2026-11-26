@@ -3,9 +3,9 @@
 <svg width="460" height="210" viewBox="0 0 460 210" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="whiGrad" x1="0" y1="0" x2="460" y2="210" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#080B16" />
-      <stop offset="55%" stop-color="#050A15" />
-      <stop offset="100%" stop-color="#172554" />
+      <stop offset="0%" stop-color="#000000" />
+      <stop offset="55%" stop-color="#000000" />
+      <stop offset="100%" stop-color="#000000" />
     </linearGradient>
 
     <pattern id="whiDots" width="22" height="22" patternUnits="userSpaceOnUse">

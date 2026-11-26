@@ -2,9 +2,9 @@
 <svg width="960" height="108" viewBox="0 0 960 108" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="stackBg" x1="0" y1="0" x2="960" y2="108" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#080B16" />
-      <stop offset="55%" stop-color="#050A15" />
-      <stop offset="100%" stop-color="#172554" />
+      <stop offset="0%" stop-color="#000000" />
+      <stop offset="55%" stop-color="#000000" />
+      <stop offset="100%" stop-color="#000000" />
     </linearGradient>
 
     <radialGradient id="stackBlueGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
