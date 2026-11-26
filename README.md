@@ -58,7 +58,7 @@
 <div align="center">
   <img src="./assets/tech-stack.svg" alt="Tech Stack" width="100%" />
 
-  <br />  <br />
+  <br />
 
 
   <!-- 4. FOOTER -->
