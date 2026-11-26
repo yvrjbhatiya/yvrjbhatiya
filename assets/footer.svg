@@ -89,8 +89,6 @@
     </text>
   </g>
 
-  <!-- Animated gradient border -->
-  <rect x="0.75" y="0.75" width="898.5" height="74.5" rx="11.5"
-    stroke="url(#borderGradient)" stroke-width="1.5"/>
+
 </svg>
 
