@@ -1,9 +1,11 @@
 <!-- 1. INTRO SECTION -->
-<div align="center" background>
+<div align="center">
   <img src="./assets/hero.svg" alt="Yuvraj Singh Bhatiya - Intro" width="100%" />
+</div>
 
-  <br /> <br />
+<br />
 
+<div align="center">
   <a href="mailto:yuvrajbhatiya57@example.com">
     <img src="./assets/btn-email.svg" alt="Email" height="50" />
   </a>
