@@ -7,17 +7,11 @@
 
 <!-- ACTION BUTTONS -->
 <div align="center">
-  <a href="https://drive.google.com/file/d/14nucyj4SmYJX6yS0usjVvbUxNsBNqILO/view?usp=drive_link">
-    <img src="./assets/btn-resume.svg" height="44" alt="Resume" />
-  </a>
+  <a href="https://drive.google.com/file/d/14nucyj4SmYJX6yS0usjVvbUxNsBNqILO/view?usp=drive_link"><img src="./assets/btn-resume.svg" height="44" alt="Resume" /></a>
   &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/yvrjbhatiya/">
-    <img src="./assets/btn-linkedin.svg" height="44" alt="LinkedIn" />
-  </a>
+  <a href="https://www.linkedin.com/in/yvrjbhatiya/"><img src="./assets/btn-linkedin.svg" height="44" alt="LinkedIn" /></a>
   &nbsp;&nbsp;
-  <a href="mailto:yuvrajbhatiya57@gmail.com">
-    <img src="./assets/btn-email.svg" height="44" alt="Email" />
-  </a>
+  <a href="mailto:yuvrajbhatiya57@gmail.com"><img src="./assets/btn-email.svg" height="44" alt="Email" /></a>
 </div>
 
 <br />
