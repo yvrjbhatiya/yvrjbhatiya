@@ -5,17 +5,17 @@
 
 <br />
 
+<!-- ACTION BUTTONS -->
 <div align="center">
-  <a href="mailto:yuvrajbhatiya57@example.com">
-    <img src="./assets/btn-email.svg" alt="Email" height="50" />
-  </a>
-  <a href="https://www.linkedin.com/in/yvrjbhatiya/" target="_blank">
-    <img src="./assets/btn-linkedin.svg" alt="LinkedIn" height="50" />
-  </a>
-  <a href="https://drive.google.com/file/d/166bIiajH_Hn_hfEGBOFpjkMEq6mVQpfh/view" target="_blank">
-    <img src="./assets/btn-resume.svg" alt="Resume" height="50" />
-  </a>
+  <table>
+    <tr>
+      <td><a href="mailto:yuvrajbhatiya57@gmail.com"><img src="./assets/btn-email.svg" alt="Email" height="50" /></a></td>
+      <td><a href="https://www.linkedin.com/in/yvrjbhatiya/" target="_blank"><img src="./assets/btn-linkedin.svg" alt="LinkedIn" height="50" /></a></td>
+      <td><a href="https://drive.google.com/file/d/166bIiajH_Hn_hfEGBOFpjkMEq6mVQpfh/view" target="_blank"><img src="./assets/btn-resume.svg" alt="Resume" height="50" /></a></td>
+    </tr>
+  </table>
 </div>
+
 <br />
 
 <!-- 2. FEATURED PROJECTS SECTION -->
@@ -24,28 +24,12 @@
 
   <table width="100%" cellspacing="12" cellpadding="0">
     <tr>
-      <td width="50%" valign="top">
-        <a href="https://edumart-ten.vercel.app" target="_blank">
-          <img src="./assets/project-edumart.svg" alt="Edumart" width="100%" />
-        </a>
-      </td>
-      <td width="50%" valign="top">
-        <a href="https://whisperit.vercel.app/" target="_blank">
-          <img src="./assets/project-whisper.svg" alt="Whisper" width="100%" />
-        </a>
-      </td>
+      <td width="50%" valign="top"><a href="https://edumart-ten.vercel.app" target="_blank"><img src="./assets/project-edumart.svg" alt="Edumart" width="100%" /></a></td>
+      <td width="50%" valign="top"><a href="https://whisperit.vercel.app/" target="_blank"><img src="./assets/project-whisper.svg" alt="Whisper" width="100%" /></a></td>
     </tr>
     <tr>
-      <td width="50%" valign="top">
-        <a href="https://theshopsee.vercel.app/" target="_blank">
-          <img src="./assets/project-shopsee.svg" alt="Shop-See" width="100%" />
-        </a>
-      </td>
-      <td width="50%" valign="top">
-        <a href="https://plannix-web.vercel.app/" target="_blank">
-          <img src="./assets/project-plannix.svg" alt="Plannix" width="100%" />
-        </a>
-      </td>
+      <td width="50%" valign="top"><a href="https://theshopsee.vercel.app/" target="_blank"><img src="./assets/project-shopsee.svg" alt="Shop-See" width="100%" /></a></td>
+      <td width="50%" valign="top"><a href="https://plannix-web.vercel.app/" target="_blank"><img src="./assets/project-plannix.svg" alt="Plannix" width="100%" /></a></td>
     </tr>
   </table>
 </div>
