@@ -1,87 +1,58 @@
 
-<!-- 1. INTRO SECTION -->
-<div align="center">
-  <img src="./assets/hero.svg" alt="Yuvraj Singh Bhatiya - Intro" width="100%" />
-</div>
-
-<br />
+<!-- INTRO SECTION -->
+<p align="center">
+  <img src="./assets/hero.svg" width="100%" alt="Yuvraj Singh Bhatiya — Full-Stack Developer" />
+</p>
 
 <!-- ACTION BUTTONS -->
-<div align="center">
-  <table
-    style="border: none !important; border-collapse: collapse !important; outline: none !important;"
-  >
-    <tr>
-      <td style="border: none !important;">
-        <a href="mailto:yuvrajbhatiya57@gmail.com">
-          <img src="./assets/btn-email.svg" alt="Email" height="50" />
-        </a>
-      </td>
-      <td style="border: none !important;">
-        <a href="https://www.linkedin.com/in/yvrjbhatiya/" target="_blank">
-          <img src="./assets/btn-linkedin.svg" alt="LinkedIn" height="50" />
-        </a>
-      </td>
-      <td style="border: none !important;">
-        <a href="https://drive.google.com/file/d/166bIiajH_Hn_hfEGBOFpjkMEq6mVQpfh/view" target="_blank">
-          <img src="./assets/btn-resume.svg" alt="Resume" height="50" />
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
+<p align="center">
+  <a href="https://drive.google.com/file/d/166bIiajH_Hn_hfEGBOFpjkMEq6mVQpfh/view">
+    <img src="./assets/btn-resume.svg" height="46" alt="Resume" />
+  </a>&nbsp;
+  <a href="https://www.linkedin.com/in/yvrjbhatiya/">
+    <img src="./assets/btn-linkedin.svg" height="46" alt="LinkedIn" />
+  </a>&nbsp;
+  <a href="mailto:yuvrajbhatiya57@gmail.com">
+    <img src="./assets/btn-email.svg" height="46" alt="Email" />
+  </a>
+</p>
 
 <br />
 
-<!-- 2. FEATURED PROJECTS SECTION -->
-<div align="center">
-  <h2 align="left">Featured Projects</h2>
+<!-- FEATURED PROJECTS -->
+<h3>Featured Projects</h3>
 
-  <table
-    width="100%"
-    cellspacing="12"
-    cellpadding="0"
-    style="border: none !important; border-collapse: separate !important; outline: none !important;"
-  >
-    <tr>
-      <td width="50%" valign="top" style="border: none !important;">
-        <a href="https://edumart-ten.vercel.app" target="_blank">
-          <img src="./assets/project-edumart.svg" alt="Edumart" width="100%" />
-        </a>
-      </td>
-      <td width="50%" valign="top" style="border: none !important;">
-        <a href="https://whisperit.vercel.app/" target="_blank">
-          <img src="./assets/project-whisper.svg" alt="Whisper" width="100%" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" valign="top" style="border: none !important;">
-        <a href="https://theshopsee.vercel.app/" target="_blank">
-          <img src="./assets/project-shopsee.svg" alt="Shop-See" width="100%" />
-        </a>
-      </td>
-      <td width="50%" valign="top" style="border: none !important;">
-        <a href="https://plannix-web.vercel.app/" target="_blank">
-          <img src="./assets/project-plannix.svg" alt="Plannix" width="100%" />
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
+<p align="center">
+  <a href="https://edumart-ten.vercel.app">
+    <img src="./assets/project-edumart.svg" width="100%" alt="Edumart" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://whisperit.vercel.app/">
+    <img src="./assets/project-whisper.svg" width="100%" alt="Whisper" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://theshopsee.vercel.app/">
+    <img src="./assets/project-shopsee.svg" width="49%" alt="Shop-See" />
+  </a>
+  <a href="https://plannix-web.vercel.app/">
+    <img src="./assets/project-plannix.svg" width="49%" alt="Plannix" />
+  </a>
+</p>
+
+<!-- TECH STACK -->
+<h3>Tech Stack</h3>
+
+<p align="center">
+  <img src="./assets/tech-stack.svg" width="100%" alt="Tech Stack" />
+</p>
 
 <br />
 
-<!-- 3. TECH STACK SECTION -->
-<div align="center">
-  <h2 align="left">Tech Stack</h2>
-
-  <img src="./assets/tech-stack.svg" alt="Tech Stack" width="100%" />
-</div>
-
-<br />
-
-<!-- 4. FOOTER SECTION -->
-<div align="center">
-  <img src="./assets/footer.svg" alt="Footer" width="85%" />
-</div>
+<!-- FOOTER -->
+<p align="center">
+  <img src="./assets/footer.svg" width="90%" alt="Footer" />
+</p>
