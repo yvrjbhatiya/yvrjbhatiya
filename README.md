@@ -24,7 +24,7 @@
   &nbsp;
   <a href="https://whisperit.vercel.app/"><img src="./assets/project-whisper.svg" width="48%" alt="Whisper" /></a>
 </div>
-
+&nbsp;
 <div align="center">
   <a href="https://theshopsee.vercel.app/"><img src="./assets/project-shopsee.svg" width="48%" alt="Shop-See" /></a>
   &nbsp;
