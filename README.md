@@ -20,23 +20,15 @@
 <h3 align="center">Featured Projects</h3>
 
 <div align="center">
-  <a href="https://edumart-ten.vercel.app">
-    <img src="./assets/project-edumart.svg" width="48%" alt="Edumart" />
-  </a>
+  <a href="https://edumart-ten.vercel.app"><img src="./assets/project-edumart.svg" width="48%" alt="Edumart" /></a>
   &nbsp;
-  <a href="https://whisperit.vercel.app/">
-    <img src="./assets/project-whisper.svg" width="48%" alt="Whisper" />
-  </a>
+  <a href="https://whisperit.vercel.app/"><img src="./assets/project-whisper.svg" width="48%" alt="Whisper" /></a>
 </div>
 
 <div align="center">
-  <a href="https://theshopsee.vercel.app/">
-    <img src="./assets/project-shopsee.svg" width="48%" alt="Shop-See" />
-  </a>
+  <a href="https://theshopsee.vercel.app/"><img src="./assets/project-shopsee.svg" width="48%" alt="Shop-See" /></a>
   &nbsp;
-  <a href="https://plannix-web.vercel.app/">
-    <img src="./assets/project-plannix.svg" width="48%" alt="Plannix" />
-  </a>
+  <a href="https://plannix-web.vercel.app/"><img src="./assets/project-plannix.svg" width="48%" alt="Plannix" /></a>
 </div>
 
 <br />
