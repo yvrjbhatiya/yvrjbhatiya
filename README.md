@@ -5,15 +5,15 @@
   <br /> <br />
 
   <a href="mailto:yuvrajbhatiya57@example.com">
-    <img src="./assets/btn-email.svg" alt="Email" height="30" />
+    <img src="./assets/btn-email.svg" alt="Email" height="50" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/yvrjbhatiya/" target="_blank">
-    <img src="./assets/btn-linkedin.svg" alt="LinkedIn" height="30" />
+    <img src="./assets/btn-linkedin.svg" alt="LinkedIn" height="50" />
   </a>
   &nbsp;&nbsp;
   <a href="https://drive.google.com/file/d/166bIiajH_Hn_hfEGBOFpjkMEq6mVQpfh/view" target="_blank">
-    <img src="./assets/btn-resume.svg" alt="Resume" height="30" />
+    <img src="./assets/btn-resume.svg" alt="Resume" height="50" />
   </a>
 </div>
 
