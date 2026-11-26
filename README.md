@@ -8,10 +8,10 @@
 <p align="center">
   <a href="https://drive.google.com/file/d/166bIiajH_Hn_hfEGBOFpjkMEq6mVQpfh/view">
     <img src="./assets/btn-resume.svg" height="46" alt="Resume" />
-  </a>
+  </a>&nbsp;
   <a href="https://www.linkedin.com/in/yvrjbhatiya/">
     <img src="./assets/btn-linkedin.svg" height="46" alt="LinkedIn" />
-  </a>
+  </a>&nbsp;
   <a href="mailto:yuvrajbhatiya57@gmail.com">
     <img src="./assets/btn-email.svg" height="46" alt="Email" />
   </a>
