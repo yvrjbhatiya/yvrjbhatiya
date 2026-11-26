@@ -1,104 +1,102 @@
-<svg width="900" height="104" viewBox="0 0 900 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="960" height="108" viewBox="0 0 960 108" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="techBg" x1="0" y1="0" x2="900" y2="104" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0B101B"/>
-      <stop offset="50%" stop-color="#111827"/>
-      <stop offset="100%" stop-color="#172033"/>
+    <linearGradient id="stackBg" x1="0" y1="0" x2="960" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1020" />
+      <stop offset="50%" stop-color="#121A2F" />
+      <stop offset="100%" stop-color="#19162B" />
     </linearGradient>
   </defs>
-  <rect width="900" height="104" rx="14" fill="url(#techBg)" stroke="#30363D" stroke-width="1.5"/>
+  <rect width="960" height="108" rx="14" fill="url(#stackBg)" stroke="#2E3A52" stroke-width="1.5" />
 
-  <!-- 1. JavaScript (#F7DF1E) -->
-  <g transform="translate(22, 23)">
-    <circle cx="29" cy="29" r="28" fill="#131B2E" stroke="#30363D" stroke-width="1.5"/>
-    <rect x="14" y="14" width="30" height="30" rx="4" fill="#F7DF1E"/>
-    <path d="M25.16 28.56 L27.98 28.56 L27.98 38.44 Q27.98 40.48 26.86 41.49 Q25.76 42.50 23.51 42.50 L22.94 42.50 L22.94 40.37 L23.37 40.37 Q24.25 40.37 24.70 39.88 Q25.16 39.39 25.16 38.44 L25.16 28.56 Z M38.34 28.91 L38.34 31.22 Q37.44 30.82 36.59 30.62 Q35.73 30.41 34.97 30.41 Q33.96 30.41 33.47 30.69 Q32.99 30.97 32.99 31.55 Q32.99 31.99 33.32 32.24 Q33.64 32.48 34.50 32.66 L35.70 32.90 Q37.52 33.27 38.29 34.02 Q39.06 34.76 39.06 36.14 Q39.06 37.95 37.99 38.83 Q36.92 39.71 34.71 39.71 Q33.67 39.71 32.63 39.51 Q31.58 39.32 30.53 38.93 L30.53 36.55 Q31.58 37.10 32.56 37.39 Q33.53 37.67 34.44 37.67 Q35.37 37.67 35.86 37.36 Q36.35 37.05 36.35 36.48 Q36.35 35.97 36.01 35.69 Q35.68 35.41 34.68 35.19 L33.59 34.95 Q31.95 34.60 31.19 33.83 Q30.43 33.06 30.43 31.76 Q30.43 30.12 31.49 29.25 Q32.54 28.37 34.52 28.37 Q35.42 28.37 36.38 28.50 Q37.33 28.64 38.34 28.91 Z" fill="#000000"/>
+  
+  <g transform="translate(22, 22)">
+    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <rect x="17" y="17" width="30" height="30" rx="4" fill="#F7DF1E" />
+    <text x="32" y="40" text-anchor="middle" fill="#000000" font-family="Courier New, Courier, monospace" font-size="15" font-weight="bold">JS</text>
   </g>
 
-  <!-- 2. HTML5 (#E34F26) -->
-  <g transform="translate(94.5, 23)">
-    <circle cx="29" cy="29" r="28" fill="#131B2E" stroke="#30363D" stroke-width="1.5"/>
-    <path d="M17 15.5H41L38.8 40.5L29 43.2L19.2 40.5L17 15.5Z" fill="#E34F26"/>
-    <path d="M29 17.8V40.8L36.7 38.7L38.4 17.8H29Z" fill="#EF652A"/>
-    <path d="M21.5 23H36L35.6 27H25.7L26 31H35.2L34.3 37.3L29 38.8L23.7 37.3L23.4 33.8H27L27.2 35.6L29 36.2L30.8 35.6L31.1 33.4H22.4L21.5 23Z" fill="#FFFFFF"/>
+  
+  <g transform="translate(99, 22)">
+    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <path d="M19 17H45L42.6 43.5L32 46.5L21.4 43.5L19 17Z" fill="#E34F26" />
+    <path d="M32 19.5V44L40.3 41.6L42.2 19.5H32Z" fill="#EF652A" />
+    <path d="M24 24.5H39.5L39 29H28.5L29 33.5H38.5L37.6 40L32 41.5L26.4 40L26 36.5H29.8L30 38.4L32 39L34 38.4L34.3 36H25L24 24.5Z" fill="#FFFFFF" />
   </g>
 
-  <!-- 3. CSS3 (#1572B6) -->
-  <g transform="translate(167, 23)">
-    <circle cx="29" cy="29" r="28" fill="#131B2E" stroke="#30363D" stroke-width="1.5"/>
-    <path d="M17 15.5H41L38.8 40.5L29 43.2L19.2 40.5L17 15.5Z" fill="#1572B6"/>
-    <path d="M29 17.8V40.8L36.7 38.7L38.4 17.8H29Z" fill="#33A9DC"/>
-    <path d="M22 23H36L35.6 27H26.4L26.7 30.2H35.2L34.2 37.5L29 39L23.8 37.5L23.5 33.8H27.1L27.3 35.6L29 36.2L30.7 35.6L31.1 32.8H22.9L22 23Z" fill="#FFFFFF"/>
+  
+  <g transform="translate(176, 22)">
+    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <path d="M19 17H45L42.6 43.5L32 46.5L21.4 43.5L19 17Z" fill="#1572B6" />
+    <path d="M32 19.5V44L40.3 41.6L42.2 19.5H32Z" fill="#33A9DC" />
+    <path d="M24.2 24.5H39.5L39 29H29.2L29.5 32.5H38.6L37.5 40.2L32 41.7L26.5 40.2L26.2 36.5H29.9L30.1 38.4L32 39L33.9 38.4L34.3 35.2H25.2L24.2 24.5Z" fill="#FFFFFF" />
   </g>
 
-  <!-- 4. React.js (#61DAFB) -->
-  <g transform="translate(239.5, 23)">
-    <circle cx="29" cy="29" r="28" fill="#131B2E" stroke="#30363D" stroke-width="1.5"/>
-    <circle cx="29" cy="29" r="3.6" fill="#61DAFB"/>
-    <ellipse cx="29" cy="29" rx="15.5" ry="6" stroke="#61DAFB" stroke-width="1.9"/>
-    <ellipse cx="29" cy="29" rx="15.5" ry="6" transform="rotate(60 29 29)" stroke="#61DAFB" stroke-width="1.9"/>
-    <ellipse cx="29" cy="29" rx="15.5" ry="6" transform="rotate(-60 29 29)" stroke="#61DAFB" stroke-width="1.9"/>
+  
+  <g transform="translate(253, 22)">
+    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <circle cx="32" cy="32" r="4.2" fill="#61DAFB" />
+    <ellipse cx="32" cy="32" rx="16.5" ry="6.5" stroke="#61DAFB" stroke-width="2" />
+    <ellipse cx="32" cy="32" rx="16.5" ry="6.5" transform="rotate(60 32 32)" stroke="#61DAFB" stroke-width="2" />
+    <ellipse cx="32" cy="32" rx="16.5" ry="6.5" transform="rotate(-60 32 32)" stroke="#61DAFB" stroke-width="2" />
   </g>
 
-  <!-- 5. Material UI (MUI) (#007FFF) -->
-  <g transform="translate(312, 23)">
-    <circle cx="29" cy="29" r="28" fill="#131B2E" stroke="#30363D" stroke-width="1.5"/>
-    <polygon points="14,18.5 22,23.5 22,37 14,32" fill="#007FFF"/>
-    <polygon points="22,23.5 30,18.5 30,32 22,37" fill="#0059B2"/>
-    <polygon points="30,18.5 38,13.5 38,27 30,32" fill="#007FFF"/>
-    <polygon points="30,32 38,27 38,37 30,42" fill="#3399FF"/>
+  
+  <g transform="translate(330, 22)">
+    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <polygon points="16,20 25,26 25,40 16,34" fill="#007FFF" />
+    <polygon points="25,26 34,20 34,34 25,40" fill="#0059B2" />
+    <polygon points="34,20 43,14 43,28 34,34" fill="#007FFF" />
+    <polygon points="34,34 43,28 43,40 34,46" fill="#3399FF" />
   </g>
 
-  <!-- 6. Node.js (#339933) -->
-  <g transform="translate(384.5, 23)">
-    <circle cx="29" cy="29" r="28" fill="#131B2E" stroke="#30363D" stroke-width="1.5"/>
-    <polygon points="29,14 41.5,21.2 41.5,36.8 29,44 16.5,36.8 16.5,21.2" fill="#339933"/>
-    <path d="M24.13 24.89 L26.48 24.89 L26.48 33.12 Q26.48 34.82 25.55 35.66 Q24.63 36.50 22.75 36.50 L22.28 36.50 L22.28 34.73 L22.65 34.73 Q23.38 34.73 23.75 34.32 Q24.13 33.91 24.13 33.12 L24.13 24.89 Z M35.12 25.17 L35.12 27.10 Q34.37 26.77 33.66 26.60 Q32.94 26.43 32.31 26.43 Q31.47 26.43 31.06 26.66 Q30.66 26.89 30.66 27.38 Q30.66 27.74 30.93 27.95 Q31.20 28.15 31.92 28.30 L32.92 28.50 Q34.44 28.81 35.08 29.43 Q35.72 30.05 35.72 31.20 Q35.72 32.71 34.83 33.44 Q33.93 34.18 32.09 34.18 Q31.23 34.18 30.35 34.01 Q29.48 33.85 28.61 33.52 L28.61 31.54 Q29.48 32.00 30.30 32.24 Q31.11 32.47 31.87 32.47 Q32.64 32.47 33.05 32.22 Q33.45 31.96 33.45 31.48 Q33.45 31.06 33.18 30.83 Q32.90 30.59 32.07 30.41 L31.16 30.21 Q29.79 29.92 29.16 29.28 Q28.53 28.63 28.53 27.55 Q28.53 26.19 29.41 25.46 Q30.29 24.72 31.93 24.72 Q32.69 24.72 33.48 24.84 Q34.27 24.95 35.12 25.17 Z" fill="#FFFFFF"/>
+  
+  <g transform="translate(407, 22)">
+    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <polygon points="32,16 45,23.5 45,40.5 32,48 19,40.5 19,23.5" fill="#339933" />
+    <text x="32" y="36.5" text-anchor="middle" fill="#FFFFFF" font-family="Courier New, Courier, monospace" font-size="13" font-weight="bold">JS</text>
   </g>
 
-  <!-- 7. Express.js (#FFFFFF) -->
-  <g transform="translate(457, 23)">
-    <circle cx="29" cy="29" r="28" fill="#131B2E" stroke="#30363D" stroke-width="1.5"/>
-    <path d="M20.67 33.62 Q19.97 33.91 19.25 34.05 Q18.52 34.20 17.72 34.20 Q15.80 34.20 14.78 33.17 Q13.77 32.14 13.77 30.21 Q13.77 28.33 14.74 27.25 Q15.72 26.16 17.41 26.16 Q19.11 26.16 20.05 27.17 Q20.99 28.17 20.99 30.01 L20.99 30.82 L15.80 30.82 Q15.81 31.72 16.34 32.17 Q16.86 32.61 17.91 32.61 Q18.60 32.61 19.27 32.41 Q19.94 32.22 20.67 31.78 L20.67 33.62 Z M18.98 29.32 Q18.96 28.52 18.57 28.12 Q18.17 27.71 17.41 27.71 Q16.72 27.71 16.31 28.13 Q15.90 28.55 15.82 29.32 L18.98 29.32 Z M29.39 26.34 L26.82 30.01 L29.62 34.00 L27.28 34.00 L25.78 31.42 L24.28 34.00 L21.94 34.00 L24.77 30.01 L22.17 26.34 L24.51 26.34 L25.78 28.63 L27.05 26.34 L29.39 26.34 Z M36.31 23.38 Q35.41 25.01 34.97 26.54 Q34.53 28.07 34.53 29.61 Q34.53 31.12 34.97 32.66 Q35.41 34.21 36.31 35.85 L34.75 35.85 Q33.66 34.27 33.14 32.73 Q32.61 31.20 32.61 29.61 Q32.61 28.02 33.14 26.48 Q33.67 24.93 34.75 23.38 L36.31 23.38 Z M40.54 23.38 L42.09 23.38 Q43.17 24.93 43.70 26.48 Q44.23 28.02 44.23 29.61 Q44.23 31.20 43.71 32.73 Q43.18 34.27 42.09 35.85 L40.54 35.85 Q41.44 34.21 41.87 32.66 Q42.31 31.12 42.31 29.61 Q42.31 28.07 41.87 26.54 Q41.44 25.01 40.54 23.38 Z" fill="#FFFFFF"/>
+  
+  <g transform="translate(484, 22)">
+    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <text x="32" y="37" text-anchor="middle" fill="#F0F6FC" font-family="Courier New, Courier, monospace" font-size="14" font-weight="bold">ex()</text>
   </g>
 
-  <!-- 8. MongoDB (#47A248) -->
-  <g transform="translate(529.5, 23)">
-    <circle cx="29" cy="29" r="28" fill="#131B2E" stroke="#30363D" stroke-width="1.5"/>
-    <path d="M29 14C33.6 20 36.4 25.5 36.4 31.2C36.4 36.8 33.2 41 29.5 42.8L29 43.8L28.5 42.8C24.8 41 21.6 36.8 21.6 31.2C21.6 25.5 24.4 20 29 14Z" fill="#47A248"/>
-    <path d="M29 14V43.8" stroke="#116149" stroke-width="1.7"/>
+  
+  <g transform="translate(561, 22)">
+    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <path d="M32 16C37 22.5 40 28.5 40 34.5C40 40.5 36.5 45 32.6 47.2L32 48L31.4 47.2C27.5 45 24 40.5 24 34.5C24 28.5 27 22.5 32 16Z" fill="#47A248" />
+    <path d="M32 16V48" stroke="#116149" stroke-width="1.8" />
   </g>
 
-  <!-- 9. MySQL (#4479A1 / #F29111) -->
-  <g transform="translate(602, 23)">
-    <circle cx="29" cy="29" r="28" fill="#131B2E" stroke="#30363D" stroke-width="1.5"/>
-    <!-- Dolphin arc + MySQL mark -->
-    <path d="M18 33C20.5 24 27 18.5 35.5 18.5C37.5 18.5 39.2 19.2 40.5 20.4C37.5 20.5 35.2 21.8 34 24.2C32.5 27.2 31.5 31 28.5 33.5" stroke="#00758F" stroke-width="2.6" stroke-linecap="round"/>
-    <path d="M35.5 18.5L38 15.5L38.5 19.2" fill="#F29111"/>
-    <path d="M9.39 35.34 L11.90 35.34 L13.64 39.44 L15.40 35.34 L17.90 35.34 L17.90 43.00 L16.04 43.00 L16.04 37.40 L14.28 41.53 L13.02 41.53 L11.26 37.40 L11.26 43.00 L9.39 43.00 L9.39 35.34 Z M19.00 37.26 L20.84 37.26 L22.38 41.15 L23.69 37.26 L25.53 37.26 L23.11 43.54 Q22.75 44.50 22.27 44.88 Q21.78 45.27 20.99 45.27 L19.93 45.27 L19.93 44.06 L20.50 44.06 Q20.97 44.06 21.18 43.91 Q21.39 43.76 21.51 43.38 L21.56 43.22 L19.00 37.26 Z M32.01 35.59 L32.01 37.21 Q31.38 36.92 30.78 36.78 Q30.18 36.64 29.65 36.64 Q28.94 36.64 28.60 36.83 Q28.26 37.03 28.26 37.44 Q28.26 37.75 28.49 37.92 Q28.72 38.09 29.32 38.21 L30.16 38.38 Q31.43 38.64 31.97 39.16 Q32.51 39.68 32.51 40.65 Q32.51 41.91 31.76 42.53 Q31.01 43.15 29.47 43.15 Q28.74 43.15 28.01 43.01 Q27.27 42.87 26.54 42.60 L26.54 40.93 Q27.27 41.32 27.96 41.52 Q28.64 41.72 29.28 41.72 Q29.92 41.72 30.27 41.50 Q30.61 41.29 30.61 40.89 Q30.61 40.53 30.38 40.33 Q30.14 40.14 29.45 39.98 L28.68 39.82 Q27.53 39.57 27.00 39.03 Q26.47 38.49 26.47 37.58 Q26.47 36.44 27.21 35.82 Q27.95 35.21 29.33 35.21 Q29.96 35.21 30.63 35.30 Q31.30 35.40 32.01 35.59 Z M37.95 43.14 L37.80 43.14 Q35.91 43.14 34.85 42.09 Q33.80 41.05 33.80 39.18 Q33.80 37.32 34.85 36.26 Q35.90 35.21 37.74 35.21 Q39.60 35.21 40.64 36.25 Q41.68 37.30 41.68 39.18 Q41.68 40.47 41.13 41.41 Q40.58 42.34 39.54 42.81 L41.08 44.53 L39.20 44.53 L37.95 43.14 Z M37.74 36.64 Q36.84 36.64 36.34 37.30 Q35.84 37.97 35.84 39.18 Q35.84 40.41 36.33 41.07 Q36.82 41.72 37.74 41.72 Q38.65 41.72 39.15 41.05 Q39.64 40.38 39.64 39.18 Q39.64 37.97 39.15 37.30 Q38.65 36.64 37.74 36.64 Z M43.17 35.34 L45.15 35.34 L45.15 41.51 L48.61 41.51 L48.61 43.00 L43.17 43.00 L43.17 35.34 Z" fill="#F29111"/>
+  
+  <g transform="translate(638, 22)">
+    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <path d="M20 38C22 33 27 24 36 21C39.5 19.8 42.5 20.5 44 22.5C41 22.5 38.5 24.5 37.5 27.5C40.5 27.5 43.5 29.5 44.5 32.5" stroke="#00758F" stroke-width="2.4" stroke-linecap="round" />
+    <path d="M22 41C26 40 31 38 35 35" stroke="#F29111" stroke-width="2.2" stroke-linecap="round" />
   </g>
 
-  <!-- 10. Git (#F05032) -->
-  <g transform="translate(674.5, 23)">
-    <circle cx="29" cy="29" r="28" fill="#131B2E" stroke="#30363D" stroke-width="1.5"/>
-    <rect x="18.5" y="18.5" width="21" height="21" rx="3.5" transform="rotate(45 29 29)" fill="#F05032"/>
-    <line x1="25" y1="21" x2="33" y2="29" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
-    <line x1="29" y1="25" x2="29" y2="35" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
-    <circle cx="29" cy="25" r="2.4" fill="#FFFFFF"/>
-    <circle cx="33" cy="29" r="2.4" fill="#FFFFFF"/>
-    <circle cx="29" cy="35" r="2.4" fill="#FFFFFF"/>
+  
+  <g transform="translate(715, 22)">
+    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <rect x="22.8" y="22.8" width="18.4" height="18.4" rx="3.5" transform="rotate(45 32 32)" fill="#F05032" />
+    <circle cx="32" cy="25" r="2.5" fill="#FFFFFF" />
+    <circle cx="32" cy="39" r="2.5" fill="#FFFFFF" />
+    <circle cx="38" cy="31" r="2.5" fill="#FFFFFF" />
+    <line x1="32" y1="27.5" x2="32" y2="36.5" stroke="#FFFFFF" stroke-width="2" />
+    <line x1="32" y1="28.5" x2="36.5" y2="30.5" stroke="#FFFFFF" stroke-width="2" />
   </g>
 
-  <!-- 11. Vercel (#FFFFFF triangle) -->
-  <g transform="translate(747, 23)">
-    <circle cx="29" cy="29" r="28" fill="#131B2E" stroke="#30363D" stroke-width="1.5"/>
-    <polygon points="29,16.5 42.5,39.5 15.5,39.5" fill="#FFFFFF"/>
+  
+  <g transform="translate(792, 22)">
+    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <polygon points="32,19 46,43 18,43" fill="#FFFFFF" />
   </g>
 
-  <!-- 12. Render (#46E3B7 / #FFFFFF geometric R-step) -->
-  <g transform="translate(819.5, 23)">
-    <circle cx="29" cy="29" r="28" fill="#131B2E" stroke="#30363D" stroke-width="1.5"/>
-    <path d="M19 17H31.5C35.8 17 39 20.1 39 24.2C39 28.3 35.8 31.4 31.5 31.4H26.5V41H19V17Z" fill="#46E3B7"/>
-    <circle cx="35.5" cy="37.5" r="3.5" fill="#FFFFFF"/>
+  
+  <g transform="translate(869, 22)">
+    <circle cx="32" cy="32" r="30" fill="#151E33" stroke="#2D3B59" stroke-width="1.5" />
+    <path d="M21 39V25C21 21.5 24 19 27.5 19C31 19 33.5 21.5 33.5 25C33.5 28.5 31 31 27.5 31H24L35 41" stroke="#46E3B7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="40" cy="26" r="3.5" fill="#46E3B7" />
   </g>
 </svg>
